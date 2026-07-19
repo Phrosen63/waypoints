@@ -1,17 +1,15 @@
 ---
 type: monster
 namn: Ryvok
-länkar:
-  regler: []
-relaterat: []
-taggar: [monster]
+relaterat: [reva]
+taggar: [monster, starka]
 ---
 
 # Ryvok
 
-![Ryvok](../../bilder/monster/starka/ryvok.jpg "Ryvok")
+![Ryvok](../../bilder/monster/starka/ryvok.webp "Ryvok")
 
-Ryvoker är starka fiender som jagar på egen hand och slår till från skuggorna. En grupp äventyrare borde vara jämnstarka med en reva.
+{.spelledare}Ryvoker är starka fiender som jagar på egen hand och slår till från skuggorna. En grupp äventyrare borde vara jämnstarka med en reva.{/}
 
 **Ryvok** är en skräckinjagande varelse som förtär ångest och smärta. Den angriper sina byten genom att dra ut deras mest plågsamma minnen och föda på den förtvivlan som följer. Ryvok är mästare på att manipulera mörkret och kan smälta samman med skuggorna för att förbli osynlig tills den slår till. Dess magi består av skräckfyllda mardrömmar som kan förlama även de modigaste krigarna.
 

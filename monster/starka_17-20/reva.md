@@ -1,17 +1,15 @@
 ---
 type: monster
 namn: Reva
-länkar:
-  regler: []
-relaterat: []
-taggar: [monster]
+relaterat: [ryvok]
+taggar: [monster, starka]
 ---
 
 # Reva
 
-![Reva](bilder/monster/starka/reva.png "Reva")
+![Reva](../../bilder/monster/starka/reva.webp "Reva")
 
-Revor är starka fiender som jagar på egen hand. En grupp äventyrare borde vara jämnstarka med en reva.
+{.spelledare}Revor är starka fiender som jagar på egen hand. En grupp äventyrare borde vara jämnstarka med en reva.{/}
 
 Revan är ett fasansfullt monster som livnär sig på rädsla. Den attackerar sina offer både psykiskt och fysiskt. Dess mörka magi skapar illusioner, hallucinationer och dimridåer.
 
