@@ -1,3 +1,12 @@
+---
+type: monster
+namn: Reva
+länkar:
+  regler: []
+relaterat: []
+taggar: [monster]
+---
+
 # Reva
 
 ![Reva](bilder/monster/starka/reva.png "Reva")

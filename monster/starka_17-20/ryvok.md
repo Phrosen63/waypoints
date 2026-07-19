@@ -1,3 +1,12 @@
+---
+type: monster
+namn: Ryvok
+länkar:
+  regler: []
+relaterat: []
+taggar: [monster]
+---
+
 # Ryvok
 
 ![Ryvok](../../bilder/monster/starka/ryvok.jpg "Ryvok")
