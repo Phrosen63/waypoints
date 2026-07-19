@@ -5,6 +5,7 @@ länkar:
   regler: []
 relaterat: [besvarjelser, rustningsfardigheter, vapenfardigheter, handlingar_i_strid]
 taggar: [färdigheter, grundregler]
+toc: true
 ---
 
 # Färdigheter
