@@ -9,7 +9,7 @@ confidential: true
 
 # Nyctalid
 
-![Nyctalid](../../bilder/monster/boss/Nyctalid.webp "Nyctalid")
+![Nyctalid](../../bilder/monster/boss/nyctalid.webp "Nyctalid")
 
 Nyctalid är en boss-fiende. Det krävs en grupp äventyrare som är väl förberedda och noga planerande för att vinna.
 
