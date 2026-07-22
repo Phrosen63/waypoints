@@ -17,6 +17,7 @@ Revan är humanoid i utseendet, åtminstone på avstånd, med undantaget att den
 
 Revor jagar ensamma och använder ofta svagare skräckvarelser som lockbete.
 
+{.spelledare}
 ## Attacker och förmågor
 
 * **Antal attacker:** 3/SR
@@ -66,3 +67,4 @@ Detta innebär att första stridsrundan kommer spelarna att fumla om de slår 20
 | Fysisk | 50% |
 | Magisk | 100% |
 | Helig | 200% |
+{/}
