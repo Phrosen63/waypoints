@@ -15,6 +15,7 @@ Den här filen dokumenterar hur innehållet ska struktureras och formateras för
 - [Specialtaggar i brödtexten](#specialtaggar-i-brödtexten)
 - [Bilder](#bilder)
 - [Låssystemet ("master password")](#låssystemet-master-password)
+- [Delning via URL](#delning-via-url)
 - [Namnkrockar](#namnkrockar)
 - [Cache och uppdatering](#cache-och-uppdatering)
 
@@ -61,6 +62,7 @@ taggar: [monster, starka]
 confidential: true
 status: draft
 toc: true
+delbar: true
 ---
 ```
 
@@ -78,6 +80,7 @@ Allt efter den avslutande `---` tolkas som markdown-brödtext.
 | `confidential` | bool | Nej | Om `true`, döljs sidans innehåll bakom låssystemet tills upplåst (se nedan). Sätts oftast manuellt bara på enskilda **globala** filer (t.ex. en global boss som är tänkt som en spoiler) — allt inuti `aventyr/` är redan implicit konfidentiellt utan att detta behöver sättas. |
 | `status` | sträng | Nej | Om satt till `draft`, visas en "✎ utkast"-badge bredvid typ-badgen högst upp på sidan. Rent visuellt, påverkar inget annat. |
 | `toc` | bool | Nej | Om `true`, genereras automatiskt en innehållsförteckning ("Innehåll") överst i dokumentet, baserad på alla `##`-rubriker (H2) i brödtexten. Klickbara länkar som skrollar till rätt sektion. |
+| `delbar` | bool | Nej | Om `true`, visas en "🔗 Kopiera delningslänk"-knapp högst upp på sidan (bara synlig för den som redan är upplåst). Knappen genererar en länk som visar **just den här sidan** olåst för mottagaren, utan att låsa upp resten av äventyret eller sessionen i övrigt. Se [Delning via URL](#delning-via-url) för hur detta fungerar och när det är lämpligt att använda. Sätts manuellt per sida — ärvs inte automatiskt av t.ex. alla monster eller allt äventyrsinnehåll. |
 
 **Kortnamn**: när man refererar till en fil i `länkar`/`relaterat`, eller i en `[[wikilänk]]`, används alltid filnamnet utan `.md`-ändelse och utan sökväg — t.ex. `reva`, inte `monster/starka/reva.md`. Se [Länkning](#länkning) för hur upplösningen fungerar.
 
@@ -225,6 +228,44 @@ Det här är en **UX-spärr, inte riktig säkerhet**. Allt i repot är publikt l
 ### Lat laddning av äventyrsinnehåll
 
 Även om ett äventyr är låst, hämtas **`aventyr.yaml`** (namn + filindex) alltid direkt vid inläsning — annars skulle äventyret inte ens synas i trädet. Det faktiska innehållet i äventyret (alla `.md`-filer under mappen) hämtas **först** när användaren klickar sig in i äventyret *och* anger rätt lösenord. Detta minimerar onödig nätverkstrafik och håller spoiler-innehåll borta från webbläsarens minne tills det verkligen efterfrågas.
+
+---
+
+## Delning via URL
+
+Waylight håller applikationens vy synkad med webbläsarens adressfält via query-parametrar, vilket gör att man kan kopiera och dela en URL för att ge någon annan exakt samma vy. Detta gäller både för vanlig navigering och för att medvetet avslöja specifikt innehåll för spelare — se nedan.
+
+### Parametrar
+
+| Parameter | Innehåll | Beskrivning |
+|---|---|---|
+| `tabs` | kommaseparerad lista med fullständiga sökvägar | Vilka flikar som är öppna, i öppningsordning. |
+| `active` | en fullständig sökväg | Vilken av `tabs` som är den aktiva/synliga fliken. |
+| `search` | fri text | Speglar trädets sökfält (mappar/filnamn/taggar). |
+| `page_search` | fri text | Speglar sökningen inom den aktiva sidan (highlightning). Bara meningsfull tillsammans med `active`. |
+| `reveal` | kommaseparerad lista med fullständiga sökvägar | Se [Delbara sidor](#delbara-sidor-reveal) nedan. |
+
+Sökvägarna i `tabs`/`active`/`reveal` är alltid **fullständiga filsökvägar** (t.ex. `aventyr/dysterhamn/karaktarer/ryvok.md`), inte kortnamn — detta för att undvika all tvetydighet kring namnkrockar (se [Namnkrockar](#namnkrockar)).
+
+URL:en uppdateras automatiskt (via webbläsarens historik-API, utan att skapa nya bakåtknapp-poster) varje gång man öppnar/stänger en flik, byter aktiv flik, eller söker. Det innebär att adressfältet alltid går att kopiera och dela rakt av för att ge mottagaren exakt samma vy — inga separata "dela"-knappar behövs för detta grundläggande beteende.
+
+### Delbara sidor (`reveal`)
+
+En sida med `delbar: true` i sin frontmatter (se [Frontmatter](#frontmatter)) kan delas så att den visas **olåst för mottagaren, utan att låsa upp resten av äventyret eller sessionen**. Detta är tänkt för sådant en spelledare vill ge spelarna direkt tillgång till efter att de själva upptäckt det i spelet — typiska exempel: en ledtråd i ett äventyr, eller ett monster spelarna just analyserat med en besvärjelse.
+
+Så här går det till:
+
+1. Sätt `delbar: true` i frontmatter på den specifika sidan.
+2. Öppna sidan i Waylight (kräver att du själv är upplåst). En knapp, "🔗 Kopiera delningslänk", visas högst upp på sidan.
+3. Klicka knappen — en URL kopieras till urklipp. Den innehåller `tabs`, `active` och `reveal`, alla satta till just den sidans sökväg.
+4. Skicka länken till spelarna (Discord, SMS, etc.). När de öppnar den ser de **bara den sidan**, olåst — resten av äventyret (och appen i övrigt) förblir låst för dem tills de själva anger master-lösenordet.
+
+**Säkerhetsspärren är `delbar: true` självt** — en `reveal`-sökväg i en manuellt ihopskriven URL som pekar på en fil *utan* `delbar: true` ignoreras helt av Waylight (loggas som en varning i webbläsarkonsolen, ingen effekt). Det gör att man inte råkar avslöja godtyckligt innehåll bara genom att känna till eller gissa en sökväg — sidan måste vara medvetet flaggad som delningsbar av den som skrev innehållet, i förväg.
+
+**Begränsningar värda att känna till:**
+- Det här är fortfarande bara en UX-spärr, precis som resten av låssystemet — filen är redan publikt läsbar för den som verkligen vill (se [Låssystemet](#låssystemet-master-password)).
+- Avslöjandet gäller bara **just den länken**, inte en varaktig upplåsning i mottagarens egen instans av appen. Öppnar spelaren Waylight på nytt utan att ha kvar den specifika länken, är sidan låst igen som vanligt.
+- Det finns inget sätt att "återkalla" en redan utskickad reveal-länk — samma begränsning som allt annat innehåll i repot.
 
 ---
 
