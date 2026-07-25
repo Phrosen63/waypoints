@@ -5,6 +5,7 @@ länkar: []
 relaterat: []
 taggar: [monster, boss]
 confidential: true
+delbar: true
 ---
 
 # Lord Viktor Voldaren

@@ -3,6 +3,7 @@ type: monster
 namn: Ryvok
 relaterat: [reva]
 taggar: [monster, starka]
+delbar: true
 ---
 
 # Ryvok

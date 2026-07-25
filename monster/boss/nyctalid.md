@@ -5,6 +5,7 @@ länkar: [skuggornas_grand]
 relaterat: [skuggornas_grand]
 taggar: [monster, boss]
 confidential: true
+delbar: true
 ---
 
 # Nyctalid

@@ -3,6 +3,7 @@ type: monster
 namn: Drävul
 relaterat: []
 taggar: [monster, mellan]
+delbar: true
 ---
 
 # Drävul
