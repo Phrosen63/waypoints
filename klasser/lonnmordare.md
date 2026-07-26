@@ -1,5 +1,5 @@
 ---
-type: regel
+type: klass
 namn: Lönnmördare
 länkar:
   regler: []

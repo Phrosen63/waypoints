@@ -1,5 +1,5 @@
 ---
-type: regel
+type: klass
 namn: Stridsmunk
 länkar:
   regler: []

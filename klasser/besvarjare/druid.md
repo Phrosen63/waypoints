@@ -1,5 +1,5 @@
 ---
-type: regel
+type: klass
 namn: Druid
 länkar:
   regler: []

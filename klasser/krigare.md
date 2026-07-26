@@ -1,5 +1,5 @@
 ---
-type: regel
+type: klass
 namn: Krigare
 länkar:
   regler: []
