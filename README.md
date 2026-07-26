@@ -29,6 +29,7 @@ waypoints/
 ├── monster/          (globala monster, kan ha undermappar som boss/, svaga/)
 ├── karaktarer/        (globala NPCs)
 ├── foremal/           (globala föremål)
+├── klasser/           (globala klasser, kan ha undermappar per klasstyp, t.ex. besvarjare/)
 ├── bilder/            (bilder, undermappar matchar innehållstyp)
 └── aventyr/
     └── <äventyrsnamn>/
@@ -39,11 +40,11 @@ waypoints/
         └── foremal/
 ```
 
-**Globalt innehåll** (`regler/`, `monster/`, `karaktarer/`, `foremal/`) är alltid synligt för alla, oavsett låst/upplåst status — om inte en enskild fil har `konfidentiell: true` i sin frontmatter (se [Låssystemet](#låssystemet-master-password)).
+**Globalt innehåll** (`regler/`, `monster/`, `karaktarer/`, `foremal/`, `klasser/`) är alltid synligt för alla, oavsett låst/upplåst status — om inte en enskild fil har `konfidentiell: true` i sin frontmatter (se [Låssystemet](#låssystemet-master-password)).
 
 **Äventyrsinnehåll** (`aventyr/<namn>/...`) är *implicit konfidentiellt* — allt innehåll i en äventyrsmapp är dolt för oupplåsta användare, förutom `aventyr.yaml` själv, vars namn och filindex alltid är synligt (så att äventyret syns i trädet, om än låst).
 
-Undermappar under `monster/`, `karaktarer/` etc. (både globalt och per äventyr) är fritt valbara och används för att gruppera innehåll visuellt i trädet (t.ex. `monster/boss/`, `monster/svaga/`). Namnet på undermappen blir rubriken i trädvyn.
+Undermappar under `monster/`, `karaktarer/`, `klasser/` etc. (både globalt och per äventyr) är fritt valbara och används för att gruppera innehåll visuellt i trädet (t.ex. `monster/boss/`, `monster/svaga/`, `klasser/besvarjare/`). Namnet på undermappen blir rubriken i trädvyn.
 
 ---
 
@@ -72,7 +73,7 @@ Allt efter den avslutande `---` tolkas som markdown-brödtext.
 
 | Fält | Typ | Obligatoriskt | Beskrivning |
 |---|---|---|---|
-| `type` | sträng | Nej (men rekommenderas) | Innehållstyp. Styr ikonen som visas i trädet och länkpanelen samt "typ-badgen" högst upp på sidan. Kända typer: `regel` (§), `monster` (☠), `karaktär` (☺), `plats` (⌂), `föremål` (◆). Okänd/saknad typ visar `•` som ikon. |
+| `type` | sträng | Nej (men rekommenderas) | Innehållstyp. Styr ikonen som visas i trädet och länkpanelen samt "typ-badgen" högst upp på sidan. Kända typer: `regel` (§), `monster` (☠), `karaktär` (☺), `plats` (⌂), `föremål` (◆), `klass` (✦). Okänd/saknad typ visar `•` som ikon. |
 | `namn` | sträng | Nej | Visningsnamn för sidan. Om utelämnat används filnamnet (utan `.md`) istället, i tabbar, träd, länkchips och sidtitel. |
 | `länkar` | objekt (kategori → lista) | Nej | Explicita, kategoriserade länkar till annat innehåll. Varje nyckel är en fri textkategori (t.ex. `regler`, `personer`, `platser`) och värdet är en lista med kortnamn (filnamn utan `.md`). Visas i länkpanelen till höger, grupperat per kategori. |
 | `relaterat` | lista | Nej | En platt lista med kortnamn på relaterat innehåll, utan kategori. Visas i en egen sektion i länkpanelen. |
@@ -148,7 +149,7 @@ Ett kortnamn (t.ex. `ryvok`) letas upp i denna ordning:
 
 1. **Exakt sökväg** — om strängen redan är en fullständig, existerande filsökväg, används den direkt.
 2. **Samma äventyr** — om den länkande filen ligger i `aventyr/<namn>/...`, letas först i just det äventyrets redan inlästa filer.
-3. **Globala mappar** — `regler/`, `monster/`, `karaktarer/`, `foremal/` (i den ordningen), inklusive undermappar.
+3. **Globala mappar** — `regler/`, `monster/`, `karaktarer/`, `foremal/`, `klasser/` (i den ordningen), inklusive undermappar.
 4. **Alla äventyrs filindex** — om inget hittats i redan inläst innehåll, söks i samtliga äventyrs `filer`-listor i `aventyr.yaml`. Om en träff hittas där, men äventyret ännu inte är hämtat/upplåst, returneras en **låst länk-descriptor** istället för en sökväg — detta är vad som ger 🔒-ikonen på wikilänkar/chips som pekar mot låst, ohämtat innehåll.
 5. Hittas inget alls, betraktas länken som trasig (visas med varningsfärg / "saknas").
 
@@ -274,7 +275,7 @@ Så här går det till:
 Eftersom länkning sker via kortnamn (filnamn utan sökväg/ändelse) måste filnamn vara unika **inom sitt scope**:
 
 - Inom samma äventyr (`aventyr/<namn>/...`), oavsett undermapp.
-- Inom samma globala topp-mapp (`regler/`, `monster/`, `karaktarer/`, `foremal/`), oavsett undermapp.
+- Inom samma globala topp-mapp (`regler/`, `monster/`, `karaktarer/`, `foremal/`, `klasser/`), oavsett undermapp.
 
 Om två filer i samma scope råkar heta likadant (t.ex. `monster/starka/reva.md` och `monster/boss/reva.md`), varnar Waylight om detta automatiskt vid inläsning (en banderoll högst upp i appen) eftersom länkar till det namnet kan peka fel. Döp om en av filerna för att lösa krocken — det finns inget sätt att disambiguera i själva länksyntaxen.
 
