@@ -17,6 +17,7 @@ delbar: true
 Ryvok jagar helst i skuggorna och utnyttjar sin förmåga att kontrollera andra skräckväsen som vakthundar, vilka den styr genom mental dominans.
 
 {.konfidentiellt}
+
 ## Attacker och förmågor
 
 * **Antal attacker:** 3/SR
@@ -65,4 +66,5 @@ Ryvok jagar helst i skuggorna och utnyttjar sin förmåga att kontrollera andra 
 | Fysisk | 50% |
 | Magisk | 100% |
 | Helig | 200% |
+
 {/}

@@ -12,10 +12,12 @@ delbar: true
 
 {.spelledare}Imper är svaga fiender som anfaller i grupp. En ensam äventyrare bör kunna hantera ett par stycken på egen hand utan problem.{/}
 
-**Beskrivning:** Imper är små, fega demoner som kan anta olika utseenden. Somliga har vingar, en del går upprätt på benen, vissa kryper fram på alla fyra, samtliga är ondskefulla och njuter av att se död och lidande. Vissa imper kan hantera vapen och verktyg, och några kan kasta besvärjelser. De har ofta orange-röd hud, skarpa klor och vassa tänder. \
+Imper är små, fega demoner som kan anta olika utseenden. Somliga har vingar, en del går upprätt på benen, vissa kryper fram på alla fyra, samtliga är ondskefulla och njuter av att se död och lidande. Vissa imper kan hantera vapen och verktyg, och några kan kasta besvärjelser. De har ofta orange-röd hud, skarpa klor och vassa tänder. \
 Imper klarar inte av att uträtta mycket på egen hand, men om en mäktigare demon tar kommando över dem kan de användas till många olika saker. Exempelvis som kanonmat, som armé, som scout-trupper eller som mat åt starkare monster. På så vis är de väldigt lika svartblodens vättar.
 
 Imper används ibland av mäktiga magiker som krigare, då de enkelt kan manas fram ur helvetet. (Starkare demoner är mer motståndskraftiga mot frammaningar och kan välja själva.)
+
+{.konfidentiellt}
 
 # Attacker och förmågor
 
@@ -63,3 +65,5 @@ Offret kan fatta eld i flera kroppsdelar samtidigt. (Om samma kroppsdel fattar e
 | Is / Vatten | 150% |
 | Helig | 150% |
 | Eld | 50% |
+
+{/}

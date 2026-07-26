@@ -12,9 +12,11 @@ delbar: true
 
 {.spelledare}Skugghäxan är en mellanstark fiende. Ensam utgör den inget större hot mot en grupp äventyrare, men en mot en kan den bli väldigt farlig.{/}
 
-**Beskrivning:** Humanoida varelser med långa, beniga armar och kloliknande händer. Deras ansikten är dolda bakom trasiga huvor, och de kan framkalla skuggor för att förvirra och skrämma sina fiender.
+Humanoida varelser med långa, beniga armar och kloliknande händer. Deras ansikten är dolda bakom trasiga huvor, och de kan framkalla skuggor för att förvirra och skrämma sina fiender.
 
-**Beteende:** Skugghäxor är intelligenta och använder magiska krafter för att kontrollera skuggor och framkalla illusioner. De kan också kasta förbannelser som försvagar deras fiender.
+Skugghäxor är intelligenta och använder magiska krafter för att kontrollera skuggor och framkalla illusioner. De kan också kasta förbannelser som försvagar deras fiender.
+
+{.konfidentiellt}
 
 # Attacker och förmågor
 
@@ -72,3 +74,5 @@ Skada: 2T8
 | Fysisk | 150% |
 | Magisk | 100% |
 | Helig | 150% |
+
+{/}

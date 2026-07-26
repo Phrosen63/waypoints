@@ -3,6 +3,7 @@ type: monster
 namn: "Varulv: Sir Pälsing"
 relaterat: []
 taggar: [monster, unika]
+konfidentiell: true
 delbar: true
 ---
 

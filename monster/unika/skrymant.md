@@ -3,6 +3,7 @@ type: monster
 namn: Skrymant
 relaterat: []
 taggar: [monster, unika]
+konfidentiell: true
 delbar: true
 ---
 

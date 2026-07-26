@@ -14,6 +14,8 @@ delbar: true
 
 Skräckmalen har en lång, smal kropp med åtta ben. Kroppen och benen är täckta av hårt skal som skyddar den mot skada. På ryggen sticker två enorma vingar ut; som liknar vingarna på fladdermöss. Huvudet liknar en döskalle, med tomma ögonhålor. Trots avsaknaden av ögon har den god syn och perfekt nattsyn.
 
+{.konfidentiellt}
+
 # Attacker och förmågor
 
 Antal attacker: 2/SR \
@@ -64,3 +66,5 @@ Om offret blir träffad av ännu ett skri, medan effekterna av ett tidigare skri
 | Fysisk | 100% |
 | Magisk | 150% |
 | Helig | 150% |
+
+{/}

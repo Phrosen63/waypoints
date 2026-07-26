@@ -12,6 +12,8 @@ delbar: true
 
 Succubus är en demonisk varelse som förför sina offer med förtrollande skönhet och manipulativ charm. Hon är en mästare på att locka sina offer in i dödliga fällor, och livnär sig på deras livskraft. Trots sitt förföriska yttre är hon hänsynslös och farlig, med krafter som kan tömma sina fienders styrka och vilja.
 
+{.konfidentiellt}
+
 # Attacker och förmågor
 
 Antal attacker: 1/SR \
@@ -59,3 +61,5 @@ CD: 2 SR
 | Fysisk | 100% |
 | Magisk | 50% |
 | Helig | 150% |
+
+{/}

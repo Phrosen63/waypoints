@@ -12,8 +12,10 @@ delbar: true
 
 {.spelledare}Dysterbesten är en mellanstark fiende. Ensam utgör den inget större hot mot en grupp äventyrare, men en mot en kan den bli väldigt farlig.{/}
 
-**Beskrivning:** Dysterbesten är en hundliknande varelse som jagar i flock. Besten livnär sig på blod och kan lukta sig till blod på hundra meters avstånd. När en flock har fått upp vittring på ett villebråd hörs deras morr och skall lång väg. \
+Dysterbesten är en hundliknande varelse som jagar i flock. Besten livnär sig på blod och kan lukta sig till blod på hundra meters avstånd. När en flock har fått upp vittring på ett villebråd hörs deras morr och skall lång väg. \
 Dysterbestens kropp är täckt av taggar som skyddar den mot attacker, och som används som vapen när besten springer på sitt offer.
+
+{.konfidentiellt}
 
 Dysterbestar används ibland av vampyrer som vakthundar i deras herrgårdar och slott.
 
@@ -74,3 +76,5 @@ Om attacken lyckas, slå 1T20:
 | Fysisk | 100% |
 | Magisk | 100% |
 | Helig | 200% |
+
+{/}

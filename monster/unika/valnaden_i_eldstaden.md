@@ -3,6 +3,7 @@ type: monster
 namn: Vålnaden i eldstaden
 relaterat: []
 taggar: [monster, unika]
+konfidentiell: true
 delbar: true
 ---
 

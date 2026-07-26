@@ -12,7 +12,9 @@ delbar: true
 
 {.spelledare}Marven är en mellanstark fiende. Ensam utgör den inget större hot mot en grupp äventyrare, men en mot en kan den bli väldigt farlig.{/}
 
-Marvens underkropp påminner om en spindels, med många ben, medan överkroppen liknar en människas, med torso, två armar och ett huvud. Marven är en del av en hivemind som styrs av marvdrottningen. Marvens uppgift är att skydda drottningen och hämta mat åt henne.
+Marvens underkropp påminner om en spindels, med många ben, medan överkroppen liknar en människas, med torso, två armar och ett huvud. Marven är en del av ett kollektivmedvetande som styrs av marvdrottningen. Marvens uppgift är att skydda drottningen och hämta mat åt henne.
+
+{.konfidentiellt}
 
 # Attacker och förmågor
 
@@ -62,3 +64,5 @@ Skada: 1T8+4
 | Fysisk | 100% |
 | Magisk | 100% |
 | Helig | 150% |
+
+{/}

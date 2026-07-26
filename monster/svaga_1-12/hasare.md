@@ -12,7 +12,9 @@ delbar: true
 
 {.spelledare}Hasare är svaga fiender som raglar omkring ensamma. Dock kan de locka dit andra, starkare fiender om spelarna är oförsiktiga. En ensam äventyrare bör kunna hantera ett par stycken på egen hand utan problem.{/}
 
-**Beskrivning:** Hasare är varelser av mänsklig storlek, med långa armar avslutade med vassa klor. Deras ben är svaga och förtvinade, vilket tvingar dem att hasa sig långsamt fram. Munnen är fylld med stora, sylvassa tänder, redo att slita sina byten itu.
+Hasare är varelser av mänsklig storlek, med långa armar avslutade med vassa klor. Deras ben är svaga och förtvinade, vilket tvingar dem att hasa sig långsamt fram. Munnen är fylld med stora, sylvassa tänder, redo att slita sina byten itu.
+
+{.konfidentiellt}
 
 # Attacker och förmågor
 
@@ -73,3 +75,5 @@ Chans att en reva dyker upp: 13-20
 | Fysisk | 100% |
 | Magisk | 150% |
 | Helig | 150% |
+
+{/}

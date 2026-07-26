@@ -3,6 +3,7 @@ type: monster
 namn: Nattgrim
 relaterat: []
 taggar: [monster, unika]
+konfidentiell: true
 delbar: true
 ---
 

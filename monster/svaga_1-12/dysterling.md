@@ -16,6 +16,8 @@ Små, humanoida varelser med genomskinlig, mörk hud och lysande ögon. De rör 
 
 {.spelledare}Dysterlingar är icke-fysiska, så det kan endast ta skada av magiska attacker. Dysterlingar som svärmar är livsfarliga. Magiska AOE-attacker och helig magi är effektiva.{/}
 
+{.konfidentiellt}
+
 # Attacker och förmågor
 
 Antal attacker: 1/SR \
@@ -61,3 +63,5 @@ Dysterlingar i grupp kan svärma och övermanna ett offer om de är fler än off
 | Fysisk | 0% |
 | Magisk | 150% |
 | Helig | 200% |
+
+{/}
