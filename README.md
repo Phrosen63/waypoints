@@ -39,7 +39,7 @@ waypoints/
         └── foremal/
 ```
 
-**Globalt innehåll** (`regler/`, `monster/`, `karaktarer/`, `foremal/`) är alltid synligt för alla, oavsett låst/upplåst status — om inte en enskild fil har `confidential: true` i sin frontmatter (se [Låssystemet](#låssystemet-master-password)).
+**Globalt innehåll** (`regler/`, `monster/`, `karaktarer/`, `foremal/`) är alltid synligt för alla, oavsett låst/upplåst status — om inte en enskild fil har `konfidentiell: true` i sin frontmatter (se [Låssystemet](#låssystemet-master-password)).
 
 **Äventyrsinnehåll** (`aventyr/<namn>/...`) är *implicit konfidentiellt* — allt innehåll i en äventyrsmapp är dolt för oupplåsta användare, förutom `aventyr.yaml` själv, vars namn och filindex alltid är synligt (så att äventyret syns i trädet, om än låst).
 
@@ -59,7 +59,7 @@ länkar:
   regler: [styrkor_svagheter_och_element]
 relaterat: [ryvok]
 taggar: [monster, starka]
-confidential: true
+konfidentiell: true
 status: draft
 toc: true
 delbar: true
@@ -77,7 +77,7 @@ Allt efter den avslutande `---` tolkas som markdown-brödtext.
 | `länkar` | objekt (kategori → lista) | Nej | Explicita, kategoriserade länkar till annat innehåll. Varje nyckel är en fri textkategori (t.ex. `regler`, `personer`, `platser`) och värdet är en lista med kortnamn (filnamn utan `.md`). Visas i länkpanelen till höger, grupperat per kategori. |
 | `relaterat` | lista | Nej | En platt lista med kortnamn på relaterat innehåll, utan kategori. Visas i en egen sektion i länkpanelen. |
 | `taggar` | lista | Nej | Fria etiketter för sökning/filtrering. Matchas mot filnamn och `namn` när man söker i trädet (sökrutan matchar mot filnamn + `namn` + `taggar` sammanslaget). |
-| `confidential` | bool | Nej | Om `true`, döljs sidans innehåll bakom låssystemet tills upplåst (se nedan). Sätts oftast manuellt bara på enskilda **globala** filer (t.ex. en global boss som är tänkt som en spoiler) — allt inuti `aventyr/` är redan implicit konfidentiellt utan att detta behöver sättas. |
+| `konfidentiell` | bool | Nej | Om `true`, döljs sidans innehåll bakom låssystemet tills upplåst (se nedan). Sätts oftast manuellt bara på enskilda **globala** filer (t.ex. en global boss som är tänkt som en spoiler) — allt inuti `aventyr/` är redan implicit konfidentiellt utan att detta behöver sättas. |
 | `status` | sträng | Nej | Om satt till `draft`, visas en "✎ utkast"-badge bredvid typ-badgen högst upp på sidan. Rent visuellt, påverkar inget annat. |
 | `toc` | bool | Nej | Om `true`, genereras automatiskt en innehållsförteckning ("Innehåll") överst i dokumentet, baserad på alla `##`-rubriker (H2) i brödtexten. Klickbara länkar som skrollar till rätt sektion. |
 | `delbar` | bool | Nej | Om `true`, visas en "🔗 Kopiera delningslänk"-knapp högst upp på sidan (bara synlig för den som redan är upplåst). Knappen genererar en länk som visar **just den här sidan** olåst för mottagaren, utan att låsa upp resten av äventyret eller sessionen i övrigt. Se [Delning via URL](#delning-via-url) för hur detta fungerar och när det är lämpligt att använda. Sätts manuellt per sida — ärvs inte automatiskt av t.ex. alla monster eller allt äventyrsinnehåll. |
@@ -217,7 +217,7 @@ Det här är en **UX-spärr, inte riktig säkerhet**. Allt i repot är publikt l
 ### Vad som räknas som konfidentiellt
 
 - **Allt** under `aventyr/<namn>/...` (utom `aventyr.yaml` självt) räknas automatiskt som konfidentiellt — inget behöver anges manuellt.
-- Enskilda **globala** filer (`regler/`, `monster/`, etc.) kan markeras manuellt med `confidential: true` i sin frontmatter.
+- Enskilda **globala** filer (`regler/`, `monster/`, etc.) kan markeras manuellt med `konfidentiell: true` i sin frontmatter.
 
 ### Hur upplåsning fungerar
 
