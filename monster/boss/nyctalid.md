@@ -4,7 +4,7 @@ namn: Nyctalid
 länkar: [skuggornas_grand]
 relaterat: [skuggornas_grand]
 taggar: [monster, boss]
-confidential: true
+konfidentiell: true
 delbar: true
 ---
 

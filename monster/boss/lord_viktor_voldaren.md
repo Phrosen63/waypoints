@@ -4,7 +4,7 @@ namn: Lord Viktor Voldaren
 länkar: []
 relaterat: []
 taggar: [monster, boss]
-confidential: true
+konfidentiell: true
 delbar: true
 ---
 
