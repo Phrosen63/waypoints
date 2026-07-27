@@ -175,6 +175,14 @@ Det här är {.viktigt}en viktig mening{/} mitt i texten.
 * **FV:** 16
 * ...
 {/}
+
+Initiativ avgör turordning i strid: alla slår 1T10 och lägger till sin INIT-bonus.
+
+{.exempel}
+Anna har INIT-bonus +2 och slår en 6:a på tärningen, vilket ger totalt 8.
+Björn har INIT-bonus +4 och slår en 3:a, vilket också ger totalt 7.
+Anna går alltså före Björn i turordningen.
+{/}
 ```
 
 Fördefinierade klasser:
@@ -186,6 +194,7 @@ Fördefinierade klasser:
 | `bildtext` | Centrerad, kursiv, mindre text — för bildtexter direkt under en bild. |
 | `viktigt` | Framhäver text med guld-understrykning och fetare vikt, utan att dölja något. |
 | `citat` | Kursiv, serif-stil (display-fonten) — för in-universe-citat eller stämningsfulla rader. |
+| `exempel` | Ett tydligt avgränsat block (grön vänsterkant, ljust bakgrundstonad ruta) med en automatisk "Exempel:"-etikett överst. Använd för att ge ett konkret, förklarande exempel direkt efter en regel- eller mekanikbeskrivning — döljer inget, bara visuellt separerar exemplet från den omgivande löptexten. |
 
 **OBS:** all `aventyr/`-mappinnehåll är redan implicit konfidentiellt på filnivå (se [Låssystemet](#låssystemet-master-password)) — `{.spelledare}`/`{.konfidentiellt}` behövs bara för att dölja *delar* av en sida, eller för att markera SL-material inuti en annars publik, global sida (t.ex. en global regel- eller monstersida som har en spoiler-sektion).
 
