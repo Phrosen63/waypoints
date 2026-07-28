@@ -123,7 +123,19 @@ Det finns tre sätt att länka mellan sidor:
 Revan använder ofta [[dimridåer]] för att skapa förvirring.
 ```
 
-`[[kortnamn]]` i löptexten görs om till en klickbar länk. Om målet inte kan hittas visas texten olänkad men markerad (`Länk saknas: ...` som tooltip).
+`[[kortnamn]]` i löptexten görs om till en klickbar länk. Länktexten blir automatiskt sidans `namn`-fält (eller filnamnet om `namn` saknas) — du kan alltså inte skriva en egen länktext med bara `[[kortnamn]]`, vilket kan ge grammatiskt klumpiga meningar om sidans namn inte råkar böjas som du vill ha det i just den meningen.
+
+**Anpassad visningstext:** lägg till ett `|` och egen text efter kortnamnet för att styra exakt vad som visas, utan att det påverkar vilken sida länken pekar mot:
+
+```markdown
+En präst börjar med en [[vapenfardigheter|vapenfärdighet]].
+```
+
+Här pekar länken fortfarande mot filen `vapenfardigheter.md` (kortnamnet, före `|`, avgör alltid *målet*), men den synliga länktexten blir "vapenfärdighet" istället för sidans faktiska `namn`-fält (t.ex. "Vapenfärdigheter", bestämd form plural) — användbart för att böja ord grammatiskt korrekt i löpande text.
+
+Om målet inte kan hittas visas texten olänkad men markerad (`Länk saknas: ...` som tooltip) — med anpassad visningstext visas då den texten istället för kortnamnet, så meningen fortfarande läser naturligt även när länken är trasig.
+
+**Använd ALDRIG vanlig markdown-länksyntax (`[text](fil.md)`) för att länka mellan sidor** — det tolkas som en riktig extern URL av markdown-parsern (`target="_blank"`, `<a href="fil.md">`), inte som en Waylight-intern länk, och resulterar i en 404 när man klickar på den. Wikilänkar (`[[...]]`) är det enda sättet att skapa fungerande interna länkar i brödtexten.
 
 ### 2. `länkar` i frontmatter
 
