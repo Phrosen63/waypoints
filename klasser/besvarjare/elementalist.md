@@ -34,7 +34,7 @@ Elementalisten kan i framtiden övergå till svärdsmagiker och kan då även sp
 
 # Skapa ny karaktär
 
-Alla nya karaktärer slår 2T6+6 för grundegenskaperna, spelaren får därefter omplacera värdena som hen vill. Välj därefter [ras](../../regler/raser.md). 
+Alla nya karaktärer slår 2T6+6 för grundegenskaperna, spelaren får därefter omplacera värdena som hen vill. Välj därefter [[raser]]. 
 Alla nya karaktärer börjar med en offensiv handling och en defensiv handling.
 
 1. Elementalister börjar med följande färdigheter:
@@ -46,15 +46,15 @@ Alla nya karaktärer börjar med en offensiv handling och en defensiv handling.
 * Förnimma magi (FV: 1T6+10)
 * Läsa/skriva
 * Läsa/skriva magisk skrift
-2. En elementalist börjar utan [vapenfärdigheter](../../regler/vapenfardigheter.md).
-3. Elementalister kan lära sig följande [rustningsfärdigheter](../../regler/rustningsfardigheter.md):
+2. En elementalist börjar utan [[vapenfardigheter]].
+3. Elementalister kan lära sig följande [[rustningsfardigheter]]:
     1. Lätta rustningar
 4. Spelaren slår 1T4, resultatet avgör hur många element elementalisten börjar med. Spelaren får välja mellan följande:
 * Eld
 * Vatten
 * Jord
 * Luft
-5. Elementalister börjar med följande [besvärjelser](../../regler/besvarjelser.md):
+5. Elementalister börjar med följande [[besvarjelser]]:
 * Element-projektil
 * Element-kvast
 * Element-stärka vapen
@@ -75,7 +75,7 @@ Elementalister börjar med följande utrustning:
 
 # Magiska förmågor
 
-Utöver de [gemensamma förmågorna](gemensamma_formagor_besvarjare.md) kan elementalister lära sig följande förmågor:
+Utöver de [[gemensamma_formagor_besvarjare]] kan elementalister lära sig följande förmågor:
 
 * **Eldaffinitet** (passiv): 
 Elementalisten behärskar eldens vilda kraft. Med varje nivå ökar intensiteten i eldbesvärjelser, vilket resulterar i förödande flammor och explosioner. 

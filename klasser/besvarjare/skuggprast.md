@@ -46,7 +46,7 @@ Skuggpräster kan i framtiden övergå till dödsriddare och kan då även spela
 
 # Skapa ny karaktär
 
-Alla nya karaktärer slår 2T6+6 för grundegenskaperna, spelaren får därefter omplacera värdena som hen vill. Välj därefter [ras](../../regler/raser.md). 
+Alla nya karaktärer slår 2T6+6 för grundegenskaperna, spelaren får därefter omplacera värdena som hen vill. Välj därefter [[raser]]. 
 Alla nya karaktärer börjar med en offensiv handling och en defensiv handling.
 
 1. En skuggpräst börjar med följande färdigheter:
@@ -58,8 +58,8 @@ Alla nya karaktärer börjar med en offensiv handling och en defensiv handling.
     * Undvika attack (FV: 1T6+8)
     * Läsa/skriva
     * Läsa/skriva magisk skrift
-2. En skuggpräst börjar utan [vapenfärdigheter](../../regler/vapenfardigheter.md).
-3. Skuggpräster kan lära sig följande [rustningsfärdigheter](../../regler/rustningsfardigheter.md):
+2. En skuggpräst börjar utan [[vapenfardigheter]].
+3. Skuggpräster kan lära sig följande [[rustningsfardigheter]]:
     * Lätta rustningar
 4. Spelaren väljer en av följande inriktningar:
     * Malediktor
@@ -87,7 +87,7 @@ Malediktor är skuggpräster som hängivit sig åt förbannelser, att försvaga 
 **Effekt:** Spelaren slår 1T4, resultatet avgör hur många lägre förbannelser malediktorn börjar med. Malediktorer tar endast halv effekt från förbannelser.
 
 Malediktorer börjar med inriktningen Mörk (ohelig). 
-Malediktorer börjar även med följande [besvärjelser](../../regler/besvarjelser.md):
+Malediktorer börjar även med följande [[besvarjelser]]:
 
 * Korrumpera
 * Lägre förbannelse
@@ -109,7 +109,7 @@ Spelaren kan välja att inte slå tärningen, i så fall blir infernalikern auto
 | 20 | **Demonfurste** – Infernalikern har ingått ett förbund med en demonfurste.<br><br>Infernalikern får +2 på att kontrollera lägre/högre demon och +2 på all skada som demoner kontrollerade av infernalikern gör.<br><br>Infernalikern kan dessutom frammana ännu en demon när hen kastar besvärjelsen Tillkalla lägre/högre demon. |
 
 Infernaliker börjar med inriktningen Demonologi. 
-Infernaliker börjar även med följande [besvärjelser](../../regler/besvarjelser.md):
+Infernaliker börjar även med följande [[besvarjelser]]:
 
 * Helveteseld
 * Tillkalla lägre demon
@@ -126,7 +126,7 @@ Nekromanter är skuggpräster som behärskar dödens mysterier och kan kontrolle
 **Effekt:** Nekromanter har förmågan att tillkalla och kontrollera en extra lägre odöd varelse.
 
 Nekromanter börjar med inriktningen Andemagi. 
-Nekromanter börjar även med följande [besvärjelser](../../regler/besvarjelser.md):
+Nekromanter börjar även med följande [[besvarjelser]]:
 
 * Benspjut
 * Tillkalla lägre odöd
@@ -136,7 +136,7 @@ Nekromanter börjar även med följande [besvärjelser](../../regler/besvarjelse
 
 ## Generella
 
-Generella förmågor är förmågor som kan användas oavsett inriktning. Utöver de [gemensamma förmågorna](gemensamma_formagor_besvarjare.md) kan skuggpräster lära sig följande förmågor:
+Generella förmågor är förmågor som kan användas oavsett inriktning. Utöver de [[gemensamma_formagor_besvarjare]] kan skuggpräster lära sig följande förmågor:
 
 * **Mörkerlärd** (passiv): 
 Genom djup andlig kontakt med skuggornas och mörkrets krafter utvecklar skuggprästen en djupare andlig styrka och mental härdighet. Denna förmåga stärka prästens andliga förmågor och gör dem mer motståndskraftiga mot psykiska angrepp. 

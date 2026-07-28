@@ -26,7 +26,7 @@ Lönnmördaren är en smidig och dödlig klass som bör spelas på följande vis
 
 # Skapa ny karaktär
 
-Alla nya karaktärer slår 2T6+6 för grundegenskaperna, spelaren får därefter omplacera värdena som hen vill. Välj därefter [ras](../regler/raser.md). 
+Alla nya karaktärer slår 2T6+6 för grundegenskaperna, spelaren får därefter omplacera värdena som hen vill. Välj därefter [[raser]]. 
 Alla nya karaktärer börjar med en offensiv handling och en defensiv handling.
 
 1. En lönnmördare börjar med följande färdigheter:
@@ -37,8 +37,8 @@ Alla nya karaktärer börjar med en offensiv handling och en defensiv handling.
 * Stjäla (FV: 1T6+10)
 * Dyrka lås (FV: 1T6+8)
 * Akrobatik (FV: 1T6+8)
-2. En lönnmördare börjar med två [vapenfärdigheter](../regler/vapenfardigheter.md).
-3. Lönnmördare kan lära sig följande [rustningsfärdigheter](../regler/rustningsfardigheter.md):
+2. En lönnmördare börjar med två [[vapenfardigheter]].
+3. Lönnmördare kan lära sig följande [[rustningsfardigheter]]:
     * Lätta rustningar
     * Smidiga rustningar
 4. Spelaren slår 1T6, resultatet avgör hur många extra färdigheter spelaren börjar med. Spelaren får välja mellan följande:

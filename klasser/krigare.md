@@ -36,7 +36,7 @@ Krigaren är en stabil klass som kan spelas på två huvudsakliga sätt:
 
 # Skapa ny karaktär
 
-Alla nya karaktärer slår 2T6+6 för grundegenskaperna, spelaren får därefter omplacera värdena som hen vill. Välj därefter [ras](../regler/raser.md). 
+Alla nya karaktärer slår 2T6+6 för grundegenskaperna, spelaren får därefter omplacera värdena som hen vill. Välj därefter [[raser]]. 
 Alla nya karaktärer börjar med en offensiv handling och en defensiv handling.
 
 1. En krigare börjar med följande färdigheter:
@@ -47,8 +47,8 @@ Alla nya karaktärer börjar med en offensiv handling och en defensiv handling.
 * Blockera (FV: 1T6+7)
 * Taktik (FV: 1T6+6)
 * Slagsmål (FV: 1T6+6)
-2. Spelaren slår 1T4+2, resultatet avgör hur många [vapenfärdigheter](../regler/vapenfardigheter.md) krigaren börjar med.
-3. Krigare kan lära sig alla [rustningsfärdigheter](../regler/rustningsfardigheter.md).
+2. Spelaren slår 1T4+2, resultatet avgör hur många [[vapenfardigheter]] krigaren börjar med.
+3. Krigare kan lära sig alla [[rustningsfardigheter]].
 4. Krigare börjar med **RF: lätta rustningar**.
 5. Spelaren väljer vapen som karaktären börjar med. Spelaren får välja mellan följande:
     * 2st enhandsvapen (yxa, svärd, spjut, dolkar, etc) (skada 1T8)

@@ -28,7 +28,7 @@ Präster kan i framtiden övergå till paladin och kan då även spelas som krig
 
 # Skapa ny karaktär
 
-Alla nya karaktärer slår 2T6+6 för grundegenskaperna, spelaren får därefter omplacera värdena som hen vill. Välj därefter [ras](../../regler/raser.md). 
+Alla nya karaktärer slår 2T6+6 för grundegenskaperna, spelaren får därefter omplacera värdena som hen vill. Välj därefter [[raser]]. 
 Alla nya karaktärer börjar med en offensiv handling och en defensiv handling.
 
 1. En präst börjar med följande färdigheter:
@@ -40,8 +40,8 @@ Alla nya karaktärer börjar med en offensiv handling och en defensiv handling.
 * Religiösa ritualer (FV: 1T6+8)
 * Kunskap om magi (FV: 1T6+7)
 * Förnimma magi (FV: 1T6+7)
-2. En präst börjar med en [vapenfärdighet](../../regler/vapenfardigheter.md).
-3. Präster kan lära sig följande [rustningsfärdigheter](../../regler/rustningsfardigheter.md):
+2. En präst börjar med en [[vapenfardigheter]].
+3. Präster kan lära sig följande [[rustningsfardigheter]]:
     * Lätta rustningar
 4. Välj en av följande religioner:
     * Solaris
@@ -49,7 +49,7 @@ Alla nya karaktärer börjar med en offensiv handling och en defensiv handling.
     * Lumenis
     * Ildra
     * Myria
-5. Präster börjar med följande [besvärjelser](../../regler/besvarjelser.md):
+5. Präster börjar med följande [[besvarjelser]]:
 * Hela
 * Helga vapen
 * Nedgöra ondska
@@ -99,7 +99,7 @@ En religion som hyllar Myria, Guldets och Rikedomens Gudinna. Präster av Myria 
 
 # Magiska förmågor
 
-Utöver de [gemensamma förmågorna](gemensamma_formagor_besvarjare.md) kan präster lära sig följande förmågor:
+Utöver de [[gemensamma_formagor_besvarjare]] kan präster lära sig följande förmågor:
 
 * **Helare** (passiv): 
 Prästen har djup kunskap om helande krafter och förstärker effekten av alla läkande besvärjelser. 

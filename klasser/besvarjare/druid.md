@@ -41,7 +41,7 @@ Oavsett spelstil har druiden en stark koppling till naturen och dess krafter, me
 
 # Skapa ny karaktär
 
-Alla nya karaktärer slår 2T6+6 för grundegenskaperna, spelaren får därefter omplacera värdena som hen vill. Välj därefter [ras](../../regler/raser.md). 
+Alla nya karaktärer slår 2T6+6 för grundegenskaperna, spelaren får därefter omplacera värdena som hen vill. Välj därefter [[raser]]. 
 Alla nya karaktärer börjar med en offensiv handling och en defensiv handling.
 
 1. En druid börjar med följande färdigheter:
@@ -52,8 +52,8 @@ Alla nya karaktärer börjar med en offensiv handling och en defensiv handling.
 * Kunskap om magi (FV: 1T6+8)
 * Förnimma magi (FV: 1T6+10)
 * Överlevnad (FV: 1T6+8)
-2. En druid börjar med två [vapenfärdigheter](../../regler/vapenfardigheter.md).
-3. Druider kan lära sig följande [rustningsfärdigheter](../../regler/rustningsfardigheter.md):
+2. En druid börjar med två [[vapenfardigheter]].
+3. Druider kan lära sig följande [[rustningsfardigheter]]:
     1. Lätta rustningar
     2. Smidiga rustningar
     3. Medeltunga rustningar
@@ -63,7 +63,7 @@ Alla nya karaktärer börjar med en offensiv handling och en defensiv handling.
 * Orm
 * Utter
 5. Druider börjar med inriktningen Druidmagi.
-6. Druider börjar med följande [besvärjelser](../../regler/besvarjelser.md):
+6. Druider börjar med följande [[besvarjelser]]:
 * Tala med djur
 * Snärja
 * Skifta hamn
@@ -112,7 +112,7 @@ Uttern är en utmärkt simmare och har väldigt lätt för att fånga fisk. I ut
 
 # Magiska förmågor
 
-Utöver de [gemensamma förmågorna](gemensamma_formagor_besvarjare.md) kan druider lära sig följande förmågor:
+Utöver de [[gemensamma_formagor_besvarjare]] kan druider lära sig följande förmågor:
 
 * **Natur-affinitet** (passiv): **Skog**
 Druiden känner en djup förbindelse med skogens liv och kan navigera ochインタracta med flora och fauna.

@@ -11,13 +11,13 @@ status: draft
 
 Här är en lista på alla klasser:
 
-* [Krigare](krigare.md)
-* [Lönnmördare](lonnmordare.md)
-* [Stridsmunk](stridsmunk.md)
-* [Druid](besvarjare/druid.md)
-* [Elementalist](besvarjare/elementalist.md)
-* [Präst](besvarjare/prast.md)
-* [Skuggpräst](besvarjare/skuggprast.md)
+* [[krigare]]
+* [[lonnmordare]]
+* [[stridsmunk]]
+* [[druid]]
+* [[elementalist]]
+* [[prast]]
+* [[skuggprast]]
 
 Kombinerade klasser:
 
