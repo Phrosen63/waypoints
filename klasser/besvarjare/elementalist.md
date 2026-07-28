@@ -46,15 +46,15 @@ Alla nya karaktärer börjar med en offensiv handling och en defensiv handling.
 * Förnimma magi (FV: 1T6+10)
 * Läsa/skriva
 * Läsa/skriva magisk skrift
-2. En elementalist börjar utan [[vapenfardigheter]].
-3. Elementalister kan lära sig följande [[rustningsfardigheter]]:
+2. En elementalist börjar utan [[vapenfardigheter|vapenfärdigheter]].
+3. Elementalister kan lära sig följande [[rustningsfardigheter|rustningsfärdighet]]:
     1. Lätta rustningar
 4. Spelaren slår 1T4, resultatet avgör hur många element elementalisten börjar med. Spelaren får välja mellan följande:
 * Eld
 * Vatten
 * Jord
 * Luft
-5. Elementalister börjar med följande [[besvarjelser]]:
+5. Elementalister börjar med följande [[besvarjelser|besvärjelser]]:
 * Element-projektil
 * Element-kvast
 * Element-stärka vapen

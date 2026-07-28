@@ -28,7 +28,7 @@ Präster kan i framtiden övergå till paladin och kan då även spelas som krig
 
 # Skapa ny karaktär
 
-Alla nya karaktärer slår 2T6+6 för grundegenskaperna, spelaren får därefter omplacera värdena som hen vill. Välj därefter [[raser]]. 
+Alla nya karaktärer slår 2T6+6 för grundegenskaperna, spelaren får därefter omplacera värdena som hen vill. Välj därefter [[raser|ras]]. 
 Alla nya karaktärer börjar med en offensiv handling och en defensiv handling.
 
 1. En präst börjar med följande färdigheter:
@@ -40,8 +40,8 @@ Alla nya karaktärer börjar med en offensiv handling och en defensiv handling.
 * Religiösa ritualer (FV: 1T6+8)
 * Kunskap om magi (FV: 1T6+7)
 * Förnimma magi (FV: 1T6+7)
-2. En präst börjar med en [[vapenfardigheter]].
-3. Präster kan lära sig följande [[rustningsfardigheter]]:
+2. En präst börjar med en [[vapenfardigheter|vapenfärdighet]].
+3. Präster kan lära sig följande [[rustningsfardigheter|rustningsfärdighet]]:
     * Lätta rustningar
 4. Välj en av följande religioner:
     * Solaris
@@ -49,7 +49,7 @@ Alla nya karaktärer börjar med en offensiv handling och en defensiv handling.
     * Lumenis
     * Ildra
     * Myria
-5. Präster börjar med följande [[besvarjelser]]:
+5. Präster börjar med följande [[besvarjelser|besvärjelser]]:
 * Hela
 * Helga vapen
 * Nedgöra ondska

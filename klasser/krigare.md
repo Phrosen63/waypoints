@@ -47,8 +47,8 @@ Alla nya karaktärer börjar med en offensiv handling och en defensiv handling.
 * Blockera (FV: 1T6+7)
 * Taktik (FV: 1T6+6)
 * Slagsmål (FV: 1T6+6)
-2. Spelaren slår 1T4+2, resultatet avgör hur många [[vapenfardigheter]] krigaren börjar med.
-3. Krigare kan lära sig alla [[rustningsfardigheter]].
+2. Spelaren slår 1T4+2, resultatet avgör hur många [[vapenfardigheter|vapenfärdigheter]] krigaren börjar med.
+3. Krigare kan lära sig alla [[rustningsfardigheter|rustningsfärdigheter]].
 4. Krigare börjar med **RF: lätta rustningar**.
 5. Spelaren väljer vapen som karaktären börjar med. Spelaren får välja mellan följande:
     * 2st enhandsvapen (yxa, svärd, spjut, dolkar, etc) (skada 1T8)

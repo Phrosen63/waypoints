@@ -52,8 +52,8 @@ Alla nya karaktärer börjar med en offensiv handling och en defensiv handling.
 * Kunskap om magi (FV: 1T6+8)
 * Förnimma magi (FV: 1T6+10)
 * Överlevnad (FV: 1T6+8)
-2. En druid börjar med två [[vapenfardigheter]].
-3. Druider kan lära sig följande [[rustningsfardigheter]]:
+2. En druid börjar med två [[vapenfardigheter|vapenfärdigheter]].
+3. Druider kan lära sig följande [[rustningsfardigheter|rustningsfärdigheter]]:
     1. Lätta rustningar
     2. Smidiga rustningar
     3. Medeltunga rustningar
@@ -63,7 +63,7 @@ Alla nya karaktärer börjar med en offensiv handling och en defensiv handling.
 * Orm
 * Utter
 5. Druider börjar med inriktningen Druidmagi.
-6. Druider börjar med följande [[besvarjelser]]:
+6. Druider börjar med följande [[besvarjelser|besvärjelser]]:
 * Tala med djur
 * Snärja
 * Skifta hamn

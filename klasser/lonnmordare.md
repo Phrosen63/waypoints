@@ -37,8 +37,8 @@ Alla nya karaktärer börjar med en offensiv handling och en defensiv handling.
 * Stjäla (FV: 1T6+10)
 * Dyrka lås (FV: 1T6+8)
 * Akrobatik (FV: 1T6+8)
-2. En lönnmördare börjar med två [[vapenfardigheter]].
-3. Lönnmördare kan lära sig följande [[rustningsfardigheter]]:
+2. En lönnmördare börjar med två [[vapenfardigheter|vapenfärdigheter]].
+3. Lönnmördare kan lära sig följande [[rustningsfardigheter|rustningsfärdigheter]]:
     * Lätta rustningar
     * Smidiga rustningar
 4. Spelaren slår 1T6, resultatet avgör hur många extra färdigheter spelaren börjar med. Spelaren får välja mellan följande:

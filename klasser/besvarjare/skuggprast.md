@@ -58,8 +58,8 @@ Alla nya karaktärer börjar med en offensiv handling och en defensiv handling.
     * Undvika attack (FV: 1T6+8)
     * Läsa/skriva
     * Läsa/skriva magisk skrift
-2. En skuggpräst börjar utan [[vapenfardigheter]].
-3. Skuggpräster kan lära sig följande [[rustningsfardigheter]]:
+2. En skuggpräst börjar utan [[vapenfardigheter|vapenfärdigheter]].
+3. Skuggpräster kan lära sig följande [[rustningsfardigheter|rustningsfärdighet]]:
     * Lätta rustningar
 4. Spelaren väljer en av följande inriktningar:
     * Malediktor
@@ -87,7 +87,7 @@ Malediktor är skuggpräster som hängivit sig åt förbannelser, att försvaga 
 **Effekt:** Spelaren slår 1T4, resultatet avgör hur många lägre förbannelser malediktorn börjar med. Malediktorer tar endast halv effekt från förbannelser.
 
 Malediktorer börjar med inriktningen Mörk (ohelig). 
-Malediktorer börjar även med följande [[besvarjelser]]:
+Malediktorer börjar även med följande [[besvarjelser|besvärjelser]]:
 
 * Korrumpera
 * Lägre förbannelse
@@ -109,7 +109,7 @@ Spelaren kan välja att inte slå tärningen, i så fall blir infernalikern auto
 | 20 | **Demonfurste** – Infernalikern har ingått ett förbund med en demonfurste.<br><br>Infernalikern får +2 på att kontrollera lägre/högre demon och +2 på all skada som demoner kontrollerade av infernalikern gör.<br><br>Infernalikern kan dessutom frammana ännu en demon när hen kastar besvärjelsen Tillkalla lägre/högre demon. |
 
 Infernaliker börjar med inriktningen Demonologi. 
-Infernaliker börjar även med följande [[besvarjelser]]:
+Infernaliker börjar även med följande [[besvarjelser|besvärjelser]]:
 
 * Helveteseld
 * Tillkalla lägre demon
@@ -126,7 +126,7 @@ Nekromanter är skuggpräster som behärskar dödens mysterier och kan kontrolle
 **Effekt:** Nekromanter har förmågan att tillkalla och kontrollera en extra lägre odöd varelse.
 
 Nekromanter börjar med inriktningen Andemagi. 
-Nekromanter börjar även med följande [[besvarjelser]]:
+Nekromanter börjar även med följande [[besvarjelser|besvärjelser]]:
 
 * Benspjut
 * Tillkalla lägre odöd

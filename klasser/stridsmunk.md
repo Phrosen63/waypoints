@@ -42,8 +42,8 @@ Alla nya karaktärer börjar med en offensiv handling och en defensiv handling.
 * Akrobatik (FV: 1T6+8)
 * Kampsport (FV: 1T6+8)
 * Meditera (FV: 1T6+8)
-2. En stridsmunk börjar utan [[vapenfardigheter]].
-3. Stridsmunkar kan inte lära sig några [[rustningsfardigheter]].
+2. En stridsmunk börjar utan [[vapenfardigheter|vapenfärdigheter]].
+3. Stridsmunkar kan inte lära sig några [[rustningsfardigheter|rustningsfärdigheter]].
 4. Spelaren får välja ett av följande element att börja med:
     * Eld
     * Vatten
