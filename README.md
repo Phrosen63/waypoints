@@ -64,6 +64,7 @@ konfidentiell: true
 status: draft
 toc: true
 delbar: true
+tillbaka_knapp: false
 ---
 ```
 
@@ -71,17 +72,18 @@ Allt efter den avslutande `---` tolkas som markdown-brödtext.
 
 ### Fält
 
-| Fält | Typ | Obligatoriskt | Beskrivning |
-|---|---|---|---|
-| `type` | sträng | Nej (men rekommenderas) | Innehållstyp. Styr ikonen som visas i trädet och länkpanelen samt "typ-badgen" högst upp på sidan. Kända typer: `regel` (§), `monster` (☠), `karaktär` (☺), `plats` (⌂), `föremål` (◆), `klass` (✦). Okänd/saknad typ visar `•` som ikon. |
-| `namn` | sträng | Nej | Visningsnamn för sidan. Om utelämnat används filnamnet (utan `.md`) istället, i tabbar, träd, länkchips och sidtitel. |
-| `länkar` | objekt (kategori → lista) | Nej | Explicita, kategoriserade länkar till annat innehåll. Varje nyckel är en fri textkategori (t.ex. `regler`, `personer`, `platser`) och värdet är en lista med kortnamn (filnamn utan `.md`). Visas i länkpanelen till höger, grupperat per kategori. |
-| `relaterat` | lista | Nej | En platt lista med kortnamn på relaterat innehåll, utan kategori. Visas i en egen sektion i länkpanelen. |
-| `taggar` | lista | Nej | Fria etiketter för sökning/filtrering. Matchas mot filnamn och `namn` när man söker i trädet (sökrutan matchar mot filnamn + `namn` + `taggar` sammanslaget). |
-| `konfidentiell` | bool | Nej | Om `true`, döljs sidans innehåll bakom låssystemet tills upplåst (se nedan). Sätts oftast manuellt bara på enskilda **globala** filer (t.ex. en global boss som är tänkt som en spoiler) - allt inuti `aventyr/` är redan implicit konfidentiellt utan att detta behöver sättas. |
-| `status` | sträng | Nej | Om satt till `draft`, visas en "✎ utkast"-badge bredvid typ-badgen högst upp på sidan. Rent visuellt, påverkar inget annat. |
-| `toc` | bool | Nej | Om `true`, genereras automatiskt en innehållsförteckning ("Innehåll") överst i dokumentet, baserad på alla `##`-rubriker (H2) i brödtexten. Klickbara länkar som skrollar till rätt sektion. |
-| `delbar` | bool | Nej | Om `true`, visas en "🔗 Kopiera delningslänk"-knapp högst upp på sidan (bara synlig för den som redan är upplåst). Knappen genererar en länk som visar **just den här sidan** olåst för mottagaren, utan att låsa upp resten av äventyret eller sessionen i övrigt. Se [Delning via URL](#delning-via-url) för hur detta fungerar och när det är lämpligt att använda. Sätts manuellt per sida - ärvs inte automatiskt av t.ex. alla monster eller allt äventyrsinnehåll. |
+| Fält | Typ | Beskrivning |
+|---|---|---|
+| `type` | sträng | Innehållstyp. Styr ikonen som visas i trädet och länkpanelen samt "typ-badgen" högst upp på sidan. Kända typer: `regel` (§), `monster` (☠), `karaktär` (☺), `plats` (⌂), `föremål` (◆), `klass` (✦). Okänd/saknad typ visar `•` som ikon. |
+| `namn` | sträng | Visningsnamn för sidan. Om utelämnat används filnamnet (utan `.md`) istället, i tabbar, träd, länkchips och sidtitel. |
+| `länkar` | objekt (kategori → lista) | Explicita, kategoriserade länkar till annat innehåll. Varje nyckel är en fri textkategori (t.ex. `regler`, `personer`, `platser`) och värdet är en lista med kortnamn (filnamn utan `.md`). Visas i länkpanelen till höger, grupperat per kategori. |
+| `relaterat` | lista | En platt lista med kortnamn på relaterat innehåll, utan kategori. Visas i en egen sektion i länkpanelen. |
+| `taggar` | lista | Fria etiketter för sökning/filtrering. Matchas mot filnamn och `namn` när man söker i trädet (sökrutan matchar mot filnamn + `namn` + `taggar` sammanslaget). |
+| `konfidentiell` | bool | Om `true`, döljs sidans innehåll bakom låssystemet tills upplåst (se nedan). Sätts oftast manuellt bara på enskilda **globala** filer (t.ex. en global boss som är tänkt som en spoiler) — allt inuti `aventyr/` är redan implicit konfidentiellt utan att detta behöver sättas. |
+| `status` | sträng | Om satt till `draft`, visas en "✎ utkast"-badge bredvid typ-badgen högst upp på sidan. Rent visuellt, påverkar inget annat. |
+| `toc` | bool | Om `true`, genereras automatiskt en innehållsförteckning ("Innehåll") överst i dokumentet, baserad på alla `##`-rubriker (H2) i brödtexten. Klickbara länkar som skrollar till rätt sektion. |
+| `delbar` | bool | Om `true`, visas en "🔗 Kopiera delningslänk"-knapp högst upp på sidan (bara synlig för den som redan är upplåst). Knappen genererar en länk som visar **just den här sidan** olåst för mottagaren, utan att låsa upp resten av äventyret eller sessionen i övrigt. Se [Delning via URL](#delning-via-url) för hur detta fungerar och när det är lämpligt att använda. Sätts manuellt per sida — ärvs inte automatiskt av t.ex. alla monster eller allt äventyrsinnehåll. |
+| `tillbaka_knapp` | bool | Styr om den flytande "scrolla till toppen"-knappen ska visas på sidan. **Default är `true`** (knappen visas) om fältet helt saknas — sätt `tillbaka_knapp: false` för att medvetet stänga av den på enstaka sidor (t.ex. mycket korta sidor där den inte fyller något syfte). Knappen dyker upp automatiskt efter att man scrollat en bit ner i sidans innehåll. |
 
 **Kortnamn**: när man refererar till en fil i `länkar`/`relaterat`, eller i en `[[wikilänk]]`, används alltid filnamnet utan `.md`-ändelse och utan sökväg - t.ex. `reva`, inte `monster/starka/reva.md`. Se [Länkning](#länkning) för hur upplösningen fungerar.
 
