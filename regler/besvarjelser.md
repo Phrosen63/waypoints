@@ -5,6 +5,7 @@ länkar:
   regler: []
 relaterat: [grundegenskaper, handlingar_i_strid, styrkor_svagheter_och_element]
 taggar: [magi, grundregler]
+toc: true
 status: draft
 ---
 
