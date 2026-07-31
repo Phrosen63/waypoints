@@ -7,12 +7,12 @@ relaterat: [handlingar_i_strid, vapenfardigheter]
 taggar: [strid, grundregler]
 ---
 
-# Avståndsvapen och besvärjelsekonst
+Att attackera från avstånd är effektivt – ända tills striden kommer för nära.
 
-Att kasta besvärjelser och använda avståndsvapen är bekvämt så länge man befinner sig på tryggt avstånd från striden. Men att bli ansatt av en fiende i närstrid kan göra även den modigaste krigare nervös.
+Så fort en karaktär med avståndsvapen befinner sig inom räckvidd för en fiendes närstridsvapen drabbas karaktären av {.nyckelord}närstridshot{/}. Det representerar den stress som uppstår när man hotas i närstrid.
 
-När en fiende med närstridsvapen kommer nära drabbas därför alla karaktärer som specialiserar sig på avståndsstrid av {.nyckelord}närstridshot{/} - en press som sänker deras förmåga att agera.
+{.nyckelord}Närstridshot{/} hävs om karaktären växlar till ett eget närstridsvapen.
 
-{.nyckelord}Närstridshot{/} kan avvärjas genom att byta till ett närstridsvapen.
-
-Effekt: {.nyckelord}närstridshot{/} ger karaktären -5 i alla handlingar.
+{.effekt}
+Effekt: {.nyckelord}närstridshot{/} ger karaktären -5 på alla handlingar.
+{/}
