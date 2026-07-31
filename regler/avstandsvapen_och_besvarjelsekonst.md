@@ -14,5 +14,5 @@ Så fort en karaktär med avståndsvapen befinner sig inom räckvidd för en fie
 {.nyckelord}Närstridshot{/} hävs om karaktären växlar till ett eget närstridsvapen.
 
 {.effekt}
-Effekt: {.nyckelord}närstridshot{/} ger karaktären -5 på alla handlingar.
+Effekt: {.nyckelord}närstridshot{/} -5 på alla handlingar.
 {/}
