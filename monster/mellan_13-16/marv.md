@@ -6,8 +6,6 @@ taggar: [monster, mellan]
 delbar: true
 ---
 
-# Marv
-
 ![Marv](../../bilder/monster/mellan/marv.webp "Marv")
 
 {.spelledare}Marven är en mellanstark fiende. Ensam utgör den inget större hot mot en grupp äventyrare, men en mot en kan den bli väldigt farlig.{/}

@@ -6,14 +6,11 @@ taggar: [monster, mellan]
 delbar: true
 ---
 
-# Drävul
-
 ![Drävul](../../bilder/monster/mellan/dravul.webp "Drävul")
 
 Drävul är en skrämmande varelse som rör sig med en grym elegans. Dess kropp är en grotesk blandning av människolikt och insektslikt, vilket ger den en både spöklik och främmande känsla. De tre långa klorna på varje hand är ett av dess mest skrämmande kännetecken, perfekta för både klättring och strid.
 
 {.konfidentiellt}
-
 ## Attacker och förmågor
 
 * **Antal attacker:** 1 / SR
@@ -53,5 +50,4 @@ Drävul är en skrämmande varelse som rör sig med en grym elegans. Dess kropp 
 | Fysisk | 100% |
 | Magisk | 100% |
 | Helig | 200% |
-
 {/}
