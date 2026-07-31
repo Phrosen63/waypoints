@@ -207,6 +207,7 @@ Fördefinierade klasser:
 | `viktigt` | Framhäver text med guld-understrykning och fetare vikt, utan att dölja något. |
 | `citat` | Kursiv, serif-stil (display-fonten) — för in-universe-citat eller stämningsfulla rader. |
 | `exempel` | Ett tydligt avgränsat block (grön vänsterkant, ljust bakgrundstonad ruta) med en automatisk "Exempel:"-etikett överst. Använd för att ge ett konkret, förklarande exempel direkt efter en regel- eller mekanikbeskrivning — döljer inget, bara visuellt separerar exemplet från den omgivande löptexten. |
+| `nyckelord` | Framhäver text med gyllene text och fetare vikt, utan att dölja något. |
 
 **OBS:** all `aventyr/`-mappinnehåll är redan implicit konfidentiellt på filnivå (se [Låssystemet](#låssystemet-master-password)) — `{.spelledare}`/`{.konfidentiellt}` behövs bara för att dölja *delar* av en sida, eller för att markera SL-material inuti en annars publik, global sida (t.ex. en global regel- eller monstersida som har en spoiler-sektion).
 
