@@ -1,6 +1,6 @@
 # Waypoints
 
-Waypoints är innehållsrepot för **Waylight** — ett självbyggt, webbläsarbaserat verktyg för att förbereda och bläddra i TTRPG-kampanjer (Drakar och Demoner). Det här repot innehåller *bara* innehåll (`.md`- och `.yaml`-filer, samt bilder) — ingen kod. Waylight läser in filträdet direkt från GitHub och renderar allt i webbläsaren.
+Waypoints är innehållsrepot för **Waylight** - ett självbyggt, webbläsarbaserat verktyg för att förbereda och bläddra i TTRPG-kampanjer (Drakar och Demoner). Det här repot innehåller *bara* innehåll (`.md`- och `.yaml`-filer, samt bilder) - ingen kod. Waylight läser in filträdet direkt från GitHub och renderar allt i webbläsaren.
 
 Den här filen dokumenterar hur innehållet ska struktureras och formateras för att Waylight ska tolka det korrekt.
 
@@ -40,9 +40,9 @@ waypoints/
         └── foremal/
 ```
 
-**Globalt innehåll** (`regler/`, `monster/`, `karaktarer/`, `foremal/`, `klasser/`) är alltid synligt för alla, oavsett låst/upplåst status — om inte en enskild fil har `konfidentiell: true` i sin frontmatter (se [Låssystemet](#låssystemet-master-password)).
+**Globalt innehåll** (`regler/`, `monster/`, `karaktarer/`, `foremal/`, `klasser/`) är alltid synligt för alla, oavsett låst/upplåst status - om inte en enskild fil har `konfidentiell: true` i sin frontmatter (se [Låssystemet](#låssystemet-master-password)).
 
-**Äventyrsinnehåll** (`aventyr/<namn>/...`) är *implicit konfidentiellt* — allt innehåll i en äventyrsmapp är dolt för oupplåsta användare, förutom `aventyr.yaml` själv, vars namn och filindex alltid är synligt (så att äventyret syns i trädet, om än låst).
+**Äventyrsinnehåll** (`aventyr/<namn>/...`) är *implicit konfidentiellt* - allt innehåll i en äventyrsmapp är dolt för oupplåsta användare, förutom `aventyr.yaml` själv, vars namn och filindex alltid är synligt (så att äventyret syns i trädet, om än låst).
 
 Undermappar under `monster/`, `karaktarer/`, `klasser/` etc. (både globalt och per äventyr) är fritt valbara och används för att gruppera innehåll visuellt i trädet (t.ex. `monster/boss/`, `monster/svaga/`, `klasser/besvarjare/`). Namnet på undermappen blir rubriken i trädvyn.
 
@@ -78,12 +78,12 @@ Allt efter den avslutande `---` tolkas som markdown-brödtext.
 | `länkar` | objekt (kategori → lista) | Nej | Explicita, kategoriserade länkar till annat innehåll. Varje nyckel är en fri textkategori (t.ex. `regler`, `personer`, `platser`) och värdet är en lista med kortnamn (filnamn utan `.md`). Visas i länkpanelen till höger, grupperat per kategori. |
 | `relaterat` | lista | Nej | En platt lista med kortnamn på relaterat innehåll, utan kategori. Visas i en egen sektion i länkpanelen. |
 | `taggar` | lista | Nej | Fria etiketter för sökning/filtrering. Matchas mot filnamn och `namn` när man söker i trädet (sökrutan matchar mot filnamn + `namn` + `taggar` sammanslaget). |
-| `konfidentiell` | bool | Nej | Om `true`, döljs sidans innehåll bakom låssystemet tills upplåst (se nedan). Sätts oftast manuellt bara på enskilda **globala** filer (t.ex. en global boss som är tänkt som en spoiler) — allt inuti `aventyr/` är redan implicit konfidentiellt utan att detta behöver sättas. |
+| `konfidentiell` | bool | Nej | Om `true`, döljs sidans innehåll bakom låssystemet tills upplåst (se nedan). Sätts oftast manuellt bara på enskilda **globala** filer (t.ex. en global boss som är tänkt som en spoiler) - allt inuti `aventyr/` är redan implicit konfidentiellt utan att detta behöver sättas. |
 | `status` | sträng | Nej | Om satt till `draft`, visas en "✎ utkast"-badge bredvid typ-badgen högst upp på sidan. Rent visuellt, påverkar inget annat. |
 | `toc` | bool | Nej | Om `true`, genereras automatiskt en innehållsförteckning ("Innehåll") överst i dokumentet, baserad på alla `##`-rubriker (H2) i brödtexten. Klickbara länkar som skrollar till rätt sektion. |
-| `delbar` | bool | Nej | Om `true`, visas en "🔗 Kopiera delningslänk"-knapp högst upp på sidan (bara synlig för den som redan är upplåst). Knappen genererar en länk som visar **just den här sidan** olåst för mottagaren, utan att låsa upp resten av äventyret eller sessionen i övrigt. Se [Delning via URL](#delning-via-url) för hur detta fungerar och när det är lämpligt att använda. Sätts manuellt per sida — ärvs inte automatiskt av t.ex. alla monster eller allt äventyrsinnehåll. |
+| `delbar` | bool | Nej | Om `true`, visas en "🔗 Kopiera delningslänk"-knapp högst upp på sidan (bara synlig för den som redan är upplåst). Knappen genererar en länk som visar **just den här sidan** olåst för mottagaren, utan att låsa upp resten av äventyret eller sessionen i övrigt. Se [Delning via URL](#delning-via-url) för hur detta fungerar och när det är lämpligt att använda. Sätts manuellt per sida - ärvs inte automatiskt av t.ex. alla monster eller allt äventyrsinnehåll. |
 
-**Kortnamn**: när man refererar till en fil i `länkar`/`relaterat`, eller i en `[[wikilänk]]`, används alltid filnamnet utan `.md`-ändelse och utan sökväg — t.ex. `reva`, inte `monster/starka/reva.md`. Se [Länkning](#länkning) för hur upplösningen fungerar.
+**Kortnamn**: när man refererar till en fil i `länkar`/`relaterat`, eller i en `[[wikilänk]]`, används alltid filnamnet utan `.md`-ändelse och utan sökväg - t.ex. `reva`, inte `monster/starka/reva.md`. Se [Länkning](#länkning) för hur upplösningen fungerar.
 
 ---
 
@@ -92,7 +92,7 @@ Allt efter den avslutande `---` tolkas som markdown-brödtext.
 Varje äventyrsmapp under `aventyr/` måste innehålla en `aventyr.yaml` i sin rot. Den fyller två syften:
 
 1. Ger äventyret ett **visningsnamn** i trädet (annars visas mappnamnet rakt av).
-2. Fungerar som ett **filindex** — en lista över allt innehåll som finns i äventyret, oavsett om det redan är hämtat från GitHub eller inte. Det här är vad som gör att `resolveLink()` kan känna igen och peka mot innehåll i ett äventyr som ännu inte laddats (t.ex. ett annat, olåst äventyr som länkar till något i ett låst äventyr).
+2. Fungerar som ett **filindex** - en lista över allt innehåll som finns i äventyret, oavsett om det redan är hämtat från GitHub eller inte. Det här är vad som gör att `resolveLink()` kan känna igen och peka mot innehåll i ett äventyr som ännu inte laddats (t.ex. ett annat, olåst äventyr som länkar till något i ett låst äventyr).
 
 ### Struktur
 
@@ -107,9 +107,9 @@ filer:
 ```
 
 - `namn`: äventyrets visningsnamn i trädet.
-- `filer`: en platt lista med **fullständiga sökvägar** (relativt repots rot) till alla `.md`-filer i äventyret. Måste hållas i synk manuellt med det faktiska filinnehållet — om en fil läggs till eller tas bort i äventyrsmappen, uppdatera listan här också.
+- `filer`: en platt lista med **fullständiga sökvägar** (relativt repots rot) till alla `.md`-filer i äventyret. Måste hållas i synk manuellt med det faktiska filinnehållet - om en fil läggs till eller tas bort i äventyrsmappen, uppdatera listan här också.
 
-`aventyr.yaml` hämtas alltid direkt (även om äventyret är låst) — det är vad som gör att äventyret syns (låst, kursiverat, med 🔒) i trädet innan man loggat in. Resten av äventyrets filer hämtas först när man låser upp *och* klickar sig in i äventyret (lat laddning, se [Cache och uppdatering](#cache-och-uppdatering)).
+`aventyr.yaml` hämtas alltid direkt (även om äventyret är låst) - det är vad som gör att äventyret syns (låst, kursiverat, med 🔒) i trädet innan man loggat in. Resten av äventyrets filer hämtas först när man låser upp *och* klickar sig in i äventyret (lat laddning, se [Cache och uppdatering](#cache-och-uppdatering)).
 
 ---
 
@@ -123,7 +123,7 @@ Det finns tre sätt att länka mellan sidor:
 Revan använder ofta [[dimridåer]] för att skapa förvirring.
 ```
 
-`[[kortnamn]]` i löptexten görs om till en klickbar länk. Länktexten blir automatiskt sidans `namn`-fält (eller filnamnet om `namn` saknas) — du kan alltså inte skriva en egen länktext med bara `[[kortnamn]]`, vilket kan ge grammatiskt klumpiga meningar om sidans namn inte råkar böjas som du vill ha det i just den meningen.
+`[[kortnamn]]` i löptexten görs om till en klickbar länk. Länktexten blir automatiskt sidans `namn`-fält (eller filnamnet om `namn` saknas) - du kan alltså inte skriva en egen länktext med bara `[[kortnamn]]`, vilket kan ge grammatiskt klumpiga meningar om sidans namn inte råkar böjas som du vill ha det i just den meningen.
 
 **Anpassad visningstext:** lägg till ett `|` och egen text efter kortnamnet för att styra exakt vad som visas, utan att det påverkar vilken sida länken pekar mot:
 
@@ -131,11 +131,11 @@ Revan använder ofta [[dimridåer]] för att skapa förvirring.
 En präst börjar med en [[vapenfardigheter|vapenfärdighet]].
 ```
 
-Här pekar länken fortfarande mot filen `vapenfardigheter.md` (kortnamnet, före `|`, avgör alltid *målet*), men den synliga länktexten blir "vapenfärdighet" istället för sidans faktiska `namn`-fält (t.ex. "Vapenfärdigheter", bestämd form plural) — användbart för att böja ord grammatiskt korrekt i löpande text.
+Här pekar länken fortfarande mot filen `vapenfardigheter.md` (kortnamnet, före `|`, avgör alltid *målet*), men den synliga länktexten blir "vapenfärdighet" istället för sidans faktiska `namn`-fält (t.ex. "Vapenfärdigheter", bestämd form plural) - användbart för att böja ord grammatiskt korrekt i löpande text.
 
-Om målet inte kan hittas visas texten olänkad men markerad (`Länk saknas: ...` som tooltip) — med anpassad visningstext visas då den texten istället för kortnamnet, så meningen fortfarande läser naturligt även när länken är trasig.
+Om målet inte kan hittas visas texten olänkad men markerad (`Länk saknas: ...` som tooltip) - med anpassad visningstext visas då den texten istället för kortnamnet, så meningen fortfarande läser naturligt även när länken är trasig.
 
-**Använd ALDRIG vanlig markdown-länksyntax (`[text](fil.md)`) för att länka mellan sidor** — det tolkas som en riktig extern URL av markdown-parsern (`target="_blank"`, `<a href="fil.md">`), inte som en Waylight-intern länk, och resulterar i en 404 när man klickar på den. Wikilänkar (`[[...]]`) är det enda sättet att skapa fungerande interna länkar i brödtexten.
+**Använd ALDRIG vanlig markdown-länksyntax (`[text](fil.md)`) för att länka mellan sidor** - det tolkas som en riktig extern URL av markdown-parsern (`target="_blank"`, `<a href="fil.md">`), inte som en Waylight-intern länk, och resulterar i en 404 när man klickar på den. Wikilänkar (`[[...]]`) är det enda sättet att skapa fungerande interna länkar i brödtexten.
 
 ### 2. `länkar` i frontmatter
 
@@ -159,15 +159,15 @@ En okategoriserad lista, visas i en egen sektion i länkpanelen.
 
 Ett kortnamn (t.ex. `ryvok`) letas upp i denna ordning:
 
-1. **Exakt sökväg** — om strängen redan är en fullständig, existerande filsökväg, används den direkt.
-2. **Samma äventyr** — om den länkande filen ligger i `aventyr/<namn>/...`, letas först i just det äventyrets redan inlästa filer.
-3. **Globala mappar** — `regler/`, `monster/`, `karaktarer/`, `foremal/`, `klasser/` (i den ordningen), inklusive undermappar.
-4. **Alla äventyrs filindex** — om inget hittats i redan inläst innehåll, söks i samtliga äventyrs `filer`-listor i `aventyr.yaml`. Om en träff hittas där, men äventyret ännu inte är hämtat/upplåst, returneras en **låst länk-descriptor** istället för en sökväg — detta är vad som ger 🔒-ikonen på wikilänkar/chips som pekar mot låst, ohämtat innehåll.
+1. **Exakt sökväg** - om strängen redan är en fullständig, existerande filsökväg, används den direkt.
+2. **Samma äventyr** - om den länkande filen ligger i `aventyr/<namn>/...`, letas först i just det äventyrets redan inlästa filer.
+3. **Globala mappar** - `regler/`, `monster/`, `karaktarer/`, `foremal/`, `klasser/` (i den ordningen), inklusive undermappar.
+4. **Alla äventyrs filindex** - om inget hittats i redan inläst innehåll, söks i samtliga äventyrs `filer`-listor i `aventyr.yaml`. Om en träff hittas där, men äventyret ännu inte är hämtat/upplåst, returneras en **låst länk-descriptor** istället för en sökväg - detta är vad som ger 🔒-ikonen på wikilänkar/chips som pekar mot låst, ohämtat innehåll.
 5. Hittas inget alls, betraktas länken som trasig (visas med varningsfärg / "saknas").
 
 ### Automatiska backlinks
 
-Sektionen "Omnämnd av" i länkpanelen beräknas automatiskt genom att skanna **alla** inlästa filers `länkar`- och `relaterat`-fält och se vilka som pekar på den aktuella sidan. Det finns inget separat fält att fylla i för detta — det sköts helt av Waylight vid rendering.
+Sektionen "Omnämnd av" i länkpanelen beräknas automatiskt genom att skanna **alla** inlästa filers `länkar`- och `relaterat`-fält och se vilka som pekar på den aktuella sidan. Det finns inget separat fält att fylla i för detta - det sköts helt av Waylight vid rendering.
 
 ---
 
@@ -177,7 +177,7 @@ Utöver vanlig markdown (rubriker, listor, tabeller, bilder, citat, etc.) stöds
 
 ### Wrapper-taggar: `{.klass}...{/}`
 
-Generell syntax för att wrappa ett stycke text — eller ett helt block med rubriker, listor och tabeller — i en stylbar container. Fungerar både **inline** (kort text mitt i en mening) och **blocknivå** (flera stycken/rubriker/tabeller):
+Generell syntax för att wrappa ett stycke text - eller ett helt block med rubriker, listor och tabeller - i en stylbar container. Fungerar både **inline** (kort text mitt i en mening) och **blocknivå** (flera stycken/rubriker/tabeller):
 
 ```markdown
 Det här är {.viktigt}en viktig mening{/} mitt i texten.
@@ -202,15 +202,15 @@ Fördefinierade klasser:
 | Klass | Effekt |
 |---|---|
 | `spelledare` | Spelledarinnehåll. Visas alltid inramat (brun/guld ruta), både låst och upplåst. I låst läge visas texten "🔒 SL: Låst innehåll, lås upp för att visa." istället för det verkliga innehållet. Använd för SL-specifika hintar, hemligheter och taktikråd som ändå ska synas som en tydlig markerad ruta även efter upplåsning. |
-| `konfidentiellt` | Döljer innehållet helt tills upplåst (visar samma låsnotis-ruta som `spelledare` gör i låst läge). **Skillnaden**: när innehållet väl är upplåst renderas det helt normalt, utan någon ram eller specialstyling — som om taggen inte fanns. Använd när du bara vill hindra spoilers innan upplåsning, utan att permanent markera innehållet som "SL-material" i layouten. |
-| `bildtext` | Centrerad, kursiv, mindre text — för bildtexter direkt under en bild. |
+| `konfidentiellt` | Döljer innehållet helt tills upplåst (visar samma låsnotis-ruta som `spelledare` gör i låst läge). **Skillnaden**: när innehållet väl är upplåst renderas det helt normalt, utan någon ram eller specialstyling - som om taggen inte fanns. Använd när du bara vill hindra spoilers innan upplåsning, utan att permanent markera innehållet som "SL-material" i layouten. |
+| `bildtext` | Centrerad, kursiv, mindre text - för bildtexter direkt under en bild. |
 | `viktigt` | Framhäver text med guld-understrykning och fetare vikt, utan att dölja något. |
-| `effekt` | Framhäver text med grön understrykning och fetare vikt, utan att dölja något. Visuellt släkt med `viktigt` (samma stil, annan färg) - använd för att särskilja spelmekaniska effekter (skada, bonusar, statuseffekter) från allmänt viktig text i löpande brödtext. |
-| `citat` | Kursiv, serif-stil (display-fonten) — för in-universe-citat eller stämningsfulla rader. |
-| `exempel` | Ett tydligt avgränsat block (grön vänsterkant, ljust bakgrundstonad ruta) med en automatisk "Exempel:"-etikett överst. Använd för att ge ett konkret, förklarande exempel direkt efter en regel- eller mekanikbeskrivning — döljer inget, bara visuellt separerar exemplet från den omgivande löptexten. |
+| `effekt` | Framhäver text med lila understrykning och fetare vikt, utan att dölja något. Visuellt släkt med `viktigt` (samma stil, annan färg) - använd för att särskilja spelmekaniska effekter (skada, bonusar, statuseffekter) från allmänt viktig text i löpande brödtext. |
+| `citat` | Kursiv, serif-stil (display-fonten) - för in-universe-citat eller stämningsfulla rader. |
+| `exempel` | Ett tydligt avgränsat block (grön vänsterkant, ljust bakgrundstonad ruta) med en automatisk "Exempel:"-etikett överst. Använd för att ge ett konkret, förklarande exempel direkt efter en regel- eller mekanikbeskrivning - döljer inget, bara visuellt separerar exemplet från den omgivande löptexten. |
 | `nyckelord` | Framhäver ett ord eller en kort fras med gyllene, fetstil text - utan att dölja något. Till skillnad från övriga taggar är `nyckelord` en **ren inline-tagg**: den körs aldrig genom markdown-parsern och renderas alltid som en `<span>` mitt i löpande text, vilket garanterar att den aldrig bryter stycket den står i - oavsett hur kort eller lång texten är. Använd för att lyfta fram enstaka spelmekaniska termer (t.ex. statuseffekter) direkt i en mening. |
 
-**OBS:** all `aventyr/`-mappinnehåll är redan implicit konfidentiellt på filnivå (se [Låssystemet](#låssystemet-master-password)) — `{.spelledare}`/`{.konfidentiellt}` behövs bara för att dölja *delar* av en sida, eller för att markera SL-material inuti en annars publik, global sida (t.ex. en global regel- eller monstersida som har en spoiler-sektion).
+**OBS:** all `aventyr/`-mappinnehåll är redan implicit konfidentiellt på filnivå (se [Låssystemet](#låssystemet-master-password)) - `{.spelledare}`/`{.konfidentiellt}` behövs bara för att dölja *delar* av en sida, eller för att markera SL-material inuti en annars publik, global sida (t.ex. en global regel- eller monstersida som har en spoiler-sektion).
 
 ### TODO-markering
 
@@ -228,36 +228,36 @@ Ett citatblock som inleds med `**TODO:**` (fetstil) renders med en distinkt gul/
 ![Reva](../../bilder/monster/starka/reva.webp "Reva")
 ```
 
-- Använd **riktiga, filsystem-relativa sökvägar** räknat från den aktuella filens plats — exakt samma sätt som GitHubs egen markdown-preview tolkar relativa bildlänkar. Waylight löser upp `../`- och `./`-segment mot filens faktiska sökväg i repot.
-- Bilder lat-laddas (`loading="lazy"`) och hämtas aldrig i förväg — de laddas av webbläsaren först när de skrollas in i synfältet.
-- Lägg bilder i `bilder/`, med undermappar som gärna matchar innehållstypen de hör till (`bilder/monster/`, `bilder/platser/`, etc.) för att hålla ordning, men detta är inget krav som Waylight kontrollerar — sökvägen i `![]()`-taggen är sanningen.
+- Använd **riktiga, filsystem-relativa sökvägar** räknat från den aktuella filens plats - exakt samma sätt som GitHubs egen markdown-preview tolkar relativa bildlänkar. Waylight löser upp `../`- och `./`-segment mot filens faktiska sökväg i repot.
+- Bilder lat-laddas (`loading="lazy"`) och hämtas aldrig i förväg - de laddas av webbläsaren först när de skrollas in i synfältet.
+- Lägg bilder i `bilder/`, med undermappar som gärna matchar innehållstypen de hör till (`bilder/monster/`, `bilder/platser/`, etc.) för att hålla ordning, men detta är inget krav som Waylight kontrollerar - sökvägen i `![]()`-taggen är sanningen.
 
 ---
 
 ## Låssystemet ("master password")
 
-Det här är en **UX-spärr, inte riktig säkerhet**. Allt i repot är publikt läsbart av vem som helst determinerad nog (view source, devtools, direkt via `raw.githubusercontent.com`). Syftet är att hålla spelare borta från spoilers medan de fritt kan bläddra i regler/monster tillsammans med spelledaren — inte att kryptografiskt skydda innehållet.
+Det här är en **UX-spärr, inte riktig säkerhet**. Allt i repot är publikt läsbart av vem som helst determinerad nog (view source, devtools, direkt via `raw.githubusercontent.com`). Syftet är att hålla spelare borta från spoilers medan de fritt kan bläddra i regler/monster tillsammans med spelledaren - inte att kryptografiskt skydda innehållet.
 
 ### Vad som räknas som konfidentiellt
 
-- **Allt** under `aventyr/<namn>/...` (utom `aventyr.yaml` självt) räknas automatiskt som konfidentiellt — inget behöver anges manuellt.
+- **Allt** under `aventyr/<namn>/...` (utom `aventyr.yaml` självt) räknas automatiskt som konfidentiellt - inget behöver anges manuellt.
 - Enskilda **globala** filer (`regler/`, `monster/`, etc.) kan markeras manuellt med `konfidentiell: true` i sin frontmatter.
 
 ### Hur upplåsning fungerar
 
-- Lösenordet lagras aldrig i klartext — bara dess SHA-256-hash finns i koden.
+- Lösenordet lagras aldrig i klartext - bara dess SHA-256-hash finns i koden.
 - Vid korrekt lösenord sparas ett upplåst-flagga i `sessionStorage`, vilket innebär att upplåsningen **rensas automatiskt** när fliken/webbläsaren stängs (måste låsas upp på nytt varje ny session).
 - Låst innehåll visas i trädet med en kursiv rad och 🔒-ikon. Att klicka på en låst rad, en låst wikilänk, eller en låst länk-chip triggar lösenordsprompten direkt.
 
 ### Lat laddning av äventyrsinnehåll
 
-Även om ett äventyr är låst, hämtas **`aventyr.yaml`** (namn + filindex) alltid direkt vid inläsning — annars skulle äventyret inte ens synas i trädet. Det faktiska innehållet i äventyret (alla `.md`-filer under mappen) hämtas **först** när användaren klickar sig in i äventyret *och* anger rätt lösenord. Detta minimerar onödig nätverkstrafik och håller spoiler-innehåll borta från webbläsarens minne tills det verkligen efterfrågas.
+Även om ett äventyr är låst, hämtas **`aventyr.yaml`** (namn + filindex) alltid direkt vid inläsning - annars skulle äventyret inte ens synas i trädet. Det faktiska innehållet i äventyret (alla `.md`-filer under mappen) hämtas **först** när användaren klickar sig in i äventyret *och* anger rätt lösenord. Detta minimerar onödig nätverkstrafik och håller spoiler-innehåll borta från webbläsarens minne tills det verkligen efterfrågas.
 
 ---
 
 ## Delning via URL
 
-Waylight håller applikationens vy synkad med webbläsarens adressfält via query-parametrar, vilket gör att man kan kopiera och dela en URL för att ge någon annan exakt samma vy. Detta gäller både för vanlig navigering och för att medvetet avslöja specifikt innehåll för spelare — se nedan.
+Waylight håller applikationens vy synkad med webbläsarens adressfält via query-parametrar, vilket gör att man kan kopiera och dela en URL för att ge någon annan exakt samma vy. Detta gäller både för vanlig navigering och för att medvetet avslöja specifikt innehåll för spelare - se nedan.
 
 ### Parametrar
 
@@ -269,27 +269,27 @@ Waylight håller applikationens vy synkad med webbläsarens adressfält via quer
 | `page_search` | fri text | Speglar sökningen inom den aktiva sidan (highlightning). Bara meningsfull tillsammans med `active`. |
 | `reveal` | kommaseparerad lista med fullständiga sökvägar | Se [Delbara sidor](#delbara-sidor-reveal) nedan. |
 
-Sökvägarna i `tabs`/`active`/`reveal` är alltid **fullständiga filsökvägar** (t.ex. `aventyr/dysterhamn/karaktarer/ryvok.md`), inte kortnamn — detta för att undvika all tvetydighet kring namnkrockar (se [Namnkrockar](#namnkrockar)).
+Sökvägarna i `tabs`/`active`/`reveal` är alltid **fullständiga filsökvägar** (t.ex. `aventyr/dysterhamn/karaktarer/ryvok.md`), inte kortnamn - detta för att undvika all tvetydighet kring namnkrockar (se [Namnkrockar](#namnkrockar)).
 
-URL:en uppdateras automatiskt (via webbläsarens historik-API, utan att skapa nya bakåtknapp-poster) varje gång man öppnar/stänger en flik, byter aktiv flik, eller söker. Det innebär att adressfältet alltid går att kopiera och dela rakt av för att ge mottagaren exakt samma vy — inga separata "dela"-knappar behövs för detta grundläggande beteende.
+URL:en uppdateras automatiskt (via webbläsarens historik-API, utan att skapa nya bakåtknapp-poster) varje gång man öppnar/stänger en flik, byter aktiv flik, eller söker. Det innebär att adressfältet alltid går att kopiera och dela rakt av för att ge mottagaren exakt samma vy - inga separata "dela"-knappar behövs för detta grundläggande beteende.
 
 ### Delbara sidor (`reveal`)
 
-En sida med `delbar: true` i sin frontmatter (se [Frontmatter](#frontmatter)) kan delas så att den visas **olåst för mottagaren, utan att låsa upp resten av äventyret eller sessionen**. Detta är tänkt för sådant en spelledare vill ge spelarna direkt tillgång till efter att de själva upptäckt det i spelet — typiska exempel: en ledtråd i ett äventyr, eller ett monster spelarna just analyserat med en besvärjelse.
+En sida med `delbar: true` i sin frontmatter (se [Frontmatter](#frontmatter)) kan delas så att den visas **olåst för mottagaren, utan att låsa upp resten av äventyret eller sessionen**. Detta är tänkt för sådant en spelledare vill ge spelarna direkt tillgång till efter att de själva upptäckt det i spelet - typiska exempel: en ledtråd i ett äventyr, eller ett monster spelarna just analyserat med en besvärjelse.
 
 Så här går det till:
 
 1. Sätt `delbar: true` i frontmatter på den specifika sidan.
 2. Öppna sidan i Waylight (kräver att du själv är upplåst). En knapp, "🔗 Kopiera delningslänk", visas högst upp på sidan.
-3. Klicka knappen — en URL kopieras till urklipp. Den innehåller `tabs`, `active` och `reveal`, alla satta till just den sidans sökväg.
-4. Skicka länken till spelarna (Discord, SMS, etc.). När de öppnar den ser de **bara den sidan**, olåst — resten av äventyret (och appen i övrigt) förblir låst för dem tills de själva anger master-lösenordet.
+3. Klicka knappen - en URL kopieras till urklipp. Den innehåller `tabs`, `active` och `reveal`, alla satta till just den sidans sökväg.
+4. Skicka länken till spelarna (Discord, SMS, etc.). När de öppnar den ser de **bara den sidan**, olåst - resten av äventyret (och appen i övrigt) förblir låst för dem tills de själva anger master-lösenordet.
 
-**Säkerhetsspärren är `delbar: true` självt** — en `reveal`-sökväg i en manuellt ihopskriven URL som pekar på en fil *utan* `delbar: true` ignoreras helt av Waylight (loggas som en varning i webbläsarkonsolen, ingen effekt). Det gör att man inte råkar avslöja godtyckligt innehåll bara genom att känna till eller gissa en sökväg — sidan måste vara medvetet flaggad som delningsbar av den som skrev innehållet, i förväg.
+**Säkerhetsspärren är `delbar: true` självt** - en `reveal`-sökväg i en manuellt ihopskriven URL som pekar på en fil *utan* `delbar: true` ignoreras helt av Waylight (loggas som en varning i webbläsarkonsolen, ingen effekt). Det gör att man inte råkar avslöja godtyckligt innehåll bara genom att känna till eller gissa en sökväg - sidan måste vara medvetet flaggad som delningsbar av den som skrev innehållet, i förväg.
 
 **Begränsningar värda att känna till:**
-- Det här är fortfarande bara en UX-spärr, precis som resten av låssystemet — filen är redan publikt läsbar för den som verkligen vill (se [Låssystemet](#låssystemet-master-password)).
+- Det här är fortfarande bara en UX-spärr, precis som resten av låssystemet - filen är redan publikt läsbar för den som verkligen vill (se [Låssystemet](#låssystemet-master-password)).
 - Avslöjandet gäller bara **just den länken**, inte en varaktig upplåsning i mottagarens egen instans av appen. Öppnar spelaren Waylight på nytt utan att ha kvar den specifika länken, är sidan låst igen som vanligt.
-- Det finns inget sätt att "återkalla" en redan utskickad reveal-länk — samma begränsning som allt annat innehåll i repot.
+- Det finns inget sätt att "återkalla" en redan utskickad reveal-länk - samma begränsning som allt annat innehåll i repot.
 
 ---
 
@@ -300,7 +300,7 @@ Eftersom länkning sker via kortnamn (filnamn utan sökväg/ändelse) måste fil
 - Inom samma äventyr (`aventyr/<namn>/...`), oavsett undermapp.
 - Inom samma globala topp-mapp (`regler/`, `monster/`, `karaktarer/`, `foremal/`, `klasser/`), oavsett undermapp.
 
-Om två filer i samma scope råkar heta likadant (t.ex. `monster/starka/reva.md` och `monster/boss/reva.md`), varnar Waylight om detta automatiskt vid inläsning (en banderoll högst upp i appen) eftersom länkar till det namnet kan peka fel. Döp om en av filerna för att lösa krocken — det finns inget sätt att disambiguera i själva länksyntaxen.
+Om två filer i samma scope råkar heta likadant (t.ex. `monster/starka/reva.md` och `monster/boss/reva.md`), varnar Waylight om detta automatiskt vid inläsning (en banderoll högst upp i appen) eftersom länkar till det namnet kan peka fel. Döp om en av filerna för att lösa krocken - det finns inget sätt att disambiguera i själva länksyntaxen.
 
 ---
 
@@ -309,5 +309,5 @@ Om två filer i samma scope råkar heta likadant (t.ex. `monster/starka/reva.md`
 Det här avsnittet är mest relevant att känna till som skribent, inte som strikt skrivregel:
 
 - Waylight cachar allt inläst innehåll i webbläsarens `localStorage`, nyckat på repots senaste commit-SHA.
-- Så länge repots `main`-gren inte har nya commits sedan senaste inläsningen, laddas allt från cache — inga nya nätverksanrop görs, även vid siduppdatering.
+- Så länge repots `main`-gren inte har nya commits sedan senaste inläsningen, laddas allt från cache - inga nya nätverksanrop görs, även vid siduppdatering.
 - Efter att du pushat ändringar till Waypoints, måste den som tittar i Waylight klicka på uppdatera-knappen (⟳) för att tvinga fram en ny hämtning direkt från GitHub, förbi cachen.
