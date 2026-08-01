@@ -17,5 +17,5 @@ Om inget kostnad anges ska det antas att kostnaden är två.
 Generella magiska förmågor som utförs med tvåhandsvapen kostar en extra handling.
 
 {.exempel}
-Exempel: förmågan Styrkeslag har kostnad 1. Om en krigare aktiverar förmågan med ett tvåhandsvapen får den kostnad 1 + 1 = 2.
+Förmågan Styrkeslag har kostnad 1. Om en krigare aktiverar förmågan med ett tvåhandsvapen får den kostnad 1 + 1 = 2.
 {/}
