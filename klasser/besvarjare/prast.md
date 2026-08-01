@@ -32,14 +32,14 @@ Alla nya karaktärer slår 2T6+6 för grundegenskaperna, spelaren får därefter
 Alla nya karaktärer börjar med en offensiv handling och en defensiv handling.
 
 1. Präster börjar med följande färdigheter:
-* Kasta besvärjelse (FV: 1T6+10)
-* Aktivera magisk förmåga (FV: 1T6+8)
-* Attack (FV: 1T6+8)
-* Undvika attack (FV: 1T6+6)
-* Religion (FV: 1T6+8)
-* Religiösa ritualer (FV: 1T6+8)
-* Kunskap om magi (FV: 1T6+7)
-* Förnimma magi (FV: 1T6+7)
+    * Kasta besvärjelse (FV: 1T6+10)
+    * Aktivera magisk förmåga (FV: 1T6+8)
+    * Attack (FV: 1T6+8)
+    * Undvika attack (FV: 1T6+6)
+    * Religion (FV: 1T6+8)
+    * Religiösa ritualer (FV: 1T6+8)
+    * Kunskap om magi (FV: 1T6+7)
+    * Förnimma magi (FV: 1T6+7)
 2. Präster börjar med en [[vapenfardigheter|vapenfärdighet]].
 3. Präster kan lära sig följande [[rustningsfardigheter|rustningsfärdighet]]:
     * Lätta rustningar
@@ -50,9 +50,9 @@ Alla nya karaktärer börjar med en offensiv handling och en defensiv handling.
     * Ildra
     * Myria
 5. Präster börjar med följande [[besvarjelser|besvärjelser]]:
-* Hela
-* Helga vapen
-* Nedgöra ondska
+    * Hela
+    * Helga vapen
+    * Nedgöra ondska
 
 ## Startutrustning
 
@@ -71,31 +71,41 @@ Präster börjar med följande utrustning:
 
 En religion som dyrkar Solens gud, som är källan till allt liv och ljus. Solaris-präster är kända för sin generositet och helande krafter. De tror på rättvisa och att ge ljus i mörka tider.
 
-**Effekt:** Alla helande förmågor ger +10% extra helande effekt. I solljus regenererar prästen dessutom 2 KP per stridsrunda. När prästen helar någon får hen +5 skada på sin nästa fysiska attack (staplar ej).
+{.effekt}
+Effekt: Alla helande förmågor ger +10% extra helande effekt. I solljus regenererar prästen dessutom 2 KP per stridsrunda. När prästen helar någon får hen +5 skada på sin nästa fysiska attack (staplar ej).
+{/}
 
 ### Umbraxis
 
 En mystisk och dyster religion som följer Umbraxis, Lidandets Gud. Präster av Umbraxis tror att smärta är en väg till förståelse och makt. De är kända för att uthärda smärta som ingen annan och kan använda den till sin fördel.
 
-**Effekt:** Varje gång prästen tar skada gör prästen +2 extra skada med både magiska och fysiska attacker för resten av striden. Om prästen dödar någon som har skadat prästen så får hen ytterligare +1 extra skada.
+{.effekt}
+Effekt: Varje gång prästen tar skada gör prästen +2 extra skada med både magiska och fysiska attacker för resten av striden. Om prästen dödar någon som har skadat prästen så får hen ytterligare +1 extra skada.
+{/}
 
 ### Lumenis
 
 En religion som dyrkar Lumenis, Rättvisans och Sanningens Gud. Präster av Lumenis söker att bringa ljus till mörkret och utrota falskhet. De har en stark känsla för rättvisa och förväntas vara obevekliga i sitt sökande efter sanningen.
 
-**Effekt:** När prästen attackerar en fiende som prästen anser är skyldig till brott, ökar chansen att göra kritisk skada med +5%.
+{.effekt}
+Effekt: När prästen attackerar en fiende som prästen anser är skyldig till brott, ökar chansen att göra kritisk skada med +5%.
+{/}
 
 ### Ildra
 
 En religion som dyrkar Ildra, Hantverkets och Skapandets Gud. Präster av Ildra är mästare på hantverk och uppfinningar, och deras gudomliga styrka ligger i att skapa snarare än att förstöra. De är ofta tekniska genier och tillverkare.
 
-**Effekt:** Prästen och alla allierade inom 5 meters radie får +2 RV mot fysiska attacker. Magiska besvärjelser som ger skydd får dessutom +5 effekt om prästen kastar dem.
+{.effekt}
+Effekt: Prästen och alla allierade inom 5 meters radie får +2 RV mot fysiska attacker. Magiska besvärjelser som ger skydd får dessutom +5 effekt om prästen kastar dem.
+{/}
 
 ### Myria
 
 En religion som hyllar Myria, Guldets och Rikedomens Gudinna. Präster av Myria ser rikedom och välstånd som ett tecken på gudomlig välsignelse och strävar efter att samla rikedomar både för sig själva och för sina allierade.
 
-**Effekt:** Prästen får +2 bonus på alla diplomatiska handlingar. Prästen får även färdigheten Förhandla (FV: 1T6+8). Prästens startkapital ökar med 1T100 silvermynt.
+{.effekt}
+Effekt: Prästen får +2 bonus på alla diplomatiska handlingar. Prästen får även färdigheten Förhandla (FV: 1T6+8). Prästens startkapital ökar med 1T100 silvermynt.
+{/}
 
 # Magiska förmågor
 
