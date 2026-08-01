@@ -5,9 +5,9 @@ länkar:
   regler: []
 relaterat: [grundegenskaper]
 taggar: [raser, karaktärsskapande]
+toc: true
+toc_nivaer: [2, 3]
 ---
-
-## Raser
 
 Raser påverkar hur karaktärerna bemöts i olika situationer, men också karaktärernas grundegenskaper. Olika raser har olika styrkor och svagheter, både fysiskt och mentalt, vilket ger dem unika förutsättningar.
 
