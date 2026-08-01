@@ -279,11 +279,11 @@ Antal: 1 (+1 per nivå. Vid nivå 8 och uppåt kan besvärjelsen kastas över et
 Varaktighet: 1T4 SR (+1 SR per nivå)  
 Maxnivå: 10  
   
-  Om de ackumulerade effekterna av förbannelser skulle sänka en grundegenskap under 1, så dör offret omedelbart.  
+  {.viktigt}Om de ackumulerade effekterna av förbannelser skulle sänka en grundegenskap under 1, så dör offret omedelbart.{/}  
   
   Lista över lägre förbannelser:
     * **Rädsla:**  
-Offret får -PSY medan förbannelsen är aktiv. Offret måste klara ett PSY-slag varje gång hen ska utföra en direkt handling mot kastaren. Om slaget misslyckas blir offret paralyserat av skräck och missar sin stridsrunda.  
+  Offret får -PSY medan förbannelsen är aktiv. Offret måste klara ett PSY-slag varje gång hen ska utföra en direkt handling mot kastaren. Om slaget misslyckas blir offret paralyserat av skräck och missar sin stridsrunda.  
 Effekt: -3 PSY (-1 per nivå)
     * **Svaghet:**  
 Offret får -STY medan förbannelsen är aktiv. Offret får även -chans på alla STY-baserade slag och gör mindre fysisk skada.  
