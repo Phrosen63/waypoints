@@ -282,52 +282,52 @@ Maxnivå: 10
   {.viktigt}Om de ackumulerade effekterna av förbannelser skulle sänka en grundegenskap under 1, så dör offret omedelbart.{/}  
   
   Lista över lägre förbannelser:
-    * **Rädsla:**  
-  Offret får -PSY medan förbannelsen är aktiv. Offret måste klara ett PSY-slag varje gång hen ska utföra en direkt handling mot kastaren. Om slaget misslyckas blir offret paralyserat av skräck och missar sin stridsrunda.  
-Effekt: -3 PSY (-1 per nivå)
-    * **Svaghet:**  
-Offret får -STY medan förbannelsen är aktiv. Offret får även -chans på alla STY-baserade slag och gör mindre fysisk skada.  
-Effekt: -3 STY, -3 chans, -5 skada (-1, -1, -5 per nivå)
-    * **Klumpig:**  
-Offret får -SMI medan förbannelsen är aktiv. Offret har större risk att fumla.  
-Effekt: -3 SMI, +5% risk (-1, +5% per nivå)
-    * **Tvivel:**  
-Offret blir osäker på sig själv och får - i alla handlingar medan förbannelsen är aktiv.  
-Effekt: -3 (-1 per nivå)
-    * **Glömska:**  
-Offret får -INT medan förbannelsen är aktiv. Offret drabbas av minnesförlust och glömmer bort viktiga delar av komplicerade besvärjelser, vilket gör att offret får - när hen ska kasta besvärjelser. Besvärjelser som offret lyckas kasta gör dessutom mindre skada.  
-Effekt: -3 INT, -3 chans, -5 skada (-1, -1, -5 per nivå)
-    * **Sårbar:**  
-Offret blir extra känsligt för magiska angrepp medan förbannelsen är aktiv. All magisk skada som offret tar ökar.  
-Effekt: +50% (+10% per nivå)
-    * **Skör:**  
-Offrets hud och ben blir bräckliga, vilket gör att all fysisk skada ökar medan förbannelsen är aktiv.  
-Effekt: +50% (+10% per nivå)
-    * **Utmattning:**  
-Offret blir extremt trött och får -FYS medan förbannelsen är aktiv. Offret måste vila var 3:e stridsrunda och blir då helt öppen för attacker.  
-Effekt: -3 (-1 per nivå)
+  * **Rädsla:**  
+    Offret får -PSY medan förbannelsen är aktiv. Offret måste klara ett PSY-slag varje gång hen ska utföra en direkt handling mot kastaren. Om slaget misslyckas blir offret paralyserat av skräck och missar sin stridsrunda.  
+    Effekt: -3 PSY (-1 per nivå)
+  * **Svaghet:**  
+    Offret får -STY medan förbannelsen är aktiv. Offret får även -chans på alla STY-baserade slag och gör mindre fysisk skada.  
+    Effekt: -3 STY, -3 chans, -5 skada (-1, -1, -5 per nivå)
+  * **Klumpig:**  
+    Offret får -SMI medan förbannelsen är aktiv. Offret har större risk att fumla.  
+    Effekt: -3 SMI, +5% risk (-1, +5% per nivå)
+  * **Tvivel:**  
+    Offret blir osäker på sig själv och får - i alla handlingar medan förbannelsen är aktiv.  
+    Effekt: -3 (-1 per nivå)
+  * **Glömska:**  
+    Offret får -INT medan förbannelsen är aktiv. Offret drabbas av minnesförlust och glömmer bort viktiga delar av komplicerade besvärjelser, vilket gör att offret får - när hen ska kasta besvärjelser. Besvärjelser som offret lyckas kasta gör dessutom mindre skada.  
+    Effekt: -3 INT, -3 chans, -5 skada (-1, -1, -5 per nivå)
+  * **Sårbar:**  
+    Offret blir extra känsligt för magiska angrepp medan förbannelsen är aktiv. All magisk skada som offret tar ökar.  
+    Effekt: +50% (+10% per nivå)
+  * **Skör:**  
+    Offrets hud och ben blir bräckliga, vilket gör att all fysisk skada ökar medan förbannelsen är aktiv.  
+    Effekt: +50% (+10% per nivå)
+  * **Utmattning:**  
+    Offret blir extremt trött och får -FYS medan förbannelsen är aktiv. Offret måste vila var 3:e stridsrunda och blir då helt öppen för attacker.  
+    Effekt: -3 (-1 per nivå)
 * **Högre förbannelse** (försvaga, staplar ej):  
-Kastaren lägger en förbannelse över ett antal offer. Effekten beror på förbannelsen. Ett mål kan ha flera olika förbannelser på sig samtidigt.  
-Krav: 20 SPI  
-Antal: 1 (+1 per nivå. Vid nivå 8 och uppåt kan besvärjelsen kastas över ett område och träffa alla fiender. Området är SPI stort.)  
-Varaktighet: 1T4 SR (+1 SR per nivå)  
-Maxnivå: 10  
+  Kastaren lägger en förbannelse över ett antal offer. Effekten beror på förbannelsen. Ett mål kan ha flera olika förbannelser på sig samtidigt.  
+  Krav: 20 SPI  
+  Antal: 1 (+1 per nivå. Vid nivå 8 och uppåt kan besvärjelsen kastas över ett område och träffa alla fiender. Området är SPI stort.)  
+  Varaktighet: 1T4 SR (+1 SR per nivå)  
+  Maxnivå: 10  
   
-  Om de ackumulerade effekterna av förbannelser skulle sänka en grundegenskap under 1, så dör offret omedelbart.  
+  {.viktigt}Om de ackumulerade effekterna av förbannelser skulle sänka en grundegenskap under 1, så dör offret omedelbart.{/}  
   
   Lista över högre förbannelser:
-    * **Blödande sår:**  
-Ett antal stora, blödande sår uppstår spontant över offrets kropp. Varje sår delar skada varje stridsrunda. Offret riskerar även att gripas av panik och måste klara ett PSY-slag. Om slaget misslyckas får offret panik och försöker förtvivlat fly från kastaren. Varje stridsrunda har offret möjlighet att sansa sig genom att klara ett PSY-slag.  
-Antal sår: 1T12 (+2 per nivå)  
-Skada: 6 (+1 varannan nivå)
-    * **Fängsla:**  
-Offret måste klara ett FYS-5 slag. Om slaget misslyckas fängslas offret i sin egen kropp och kan inte röra sig. Alla attacker mot ett fängslat offer lyckas alltid och gör alltid full skada. Ett fängslat offer återfår kontrollen om hen tar skada.
-    * **Farsot:**  
-Offret drabbas av en mängd slumpmässigt valda lägre förbannelser. Dessa förbannelser måste inte finnas i kastarens arsenal. Endast en av varje förbannelse kan drabba offret. Offret tar dessutom skada varje stridsrunda för varje förbannelse som vilar över hen.  
-Antal förbannelser: 3 (+1 varannan nivå)  
-Skada: 5 (+1 per nivå)
-    * **Förvirring:**  
-Offret blir förvirrat och kan inte skilja vänner från fiender. Offret har 50% att attackera sina vänner i stället för sina fiender.
+  * **Blödande sår:**  
+  Ett antal stora, blödande sår uppstår spontant över offrets kropp. Varje sår delar skada varje stridsrunda. Offret riskerar även att gripas av panik och måste klara ett PSY-slag. Om slaget misslyckas får offret panik och försöker förtvivlat fly från kastaren. Varje stridsrunda har offret möjlighet att sansa sig genom att klara ett PSY-slag.  
+  Antal sår: 1T12 (+2 per nivå)  
+  Skada: 6 (+1 varannan nivå)
+  * **Fängsla:**  
+    Offret måste klara ett FYS-5 slag. Om slaget misslyckas fängslas offret i sin egen kropp och kan inte röra sig. Alla attacker mot ett fängslat offer lyckas alltid och gör alltid full skada. Ett fängslat offer återfår kontrollen om hen tar skada.
+  * **Farsot:**  
+    Offret drabbas av en mängd slumpmässigt valda lägre förbannelser. Dessa förbannelser måste inte finnas i kastarens arsenal. Endast en av varje förbannelse kan drabba offret. Offret tar dessutom skada varje stridsrunda för varje förbannelse som vilar över hen.  
+    Antal förbannelser: 3 (+1 varannan nivå)  
+    Skada: 5 (+1 per nivå)
+  * **Förvirring:**  
+    Offret blir förvirrat och kan inte skilja vänner från fiender. Offret har 50% att attackera sina vänner i stället för sina fiender.
 * **Pestmoln:**  
 Frammanar ett mörkgrönt gasmoln som fyller ett område. Alla som andas in gasen blir förgiftade, och de som befinner sig i molnet drabbas av frätande skada varje stridsrunda.  
 Räckvidd: Spelaren väljer en punkt inom och bestämmer storleken på molnet (upp till 5 meters radie).  
