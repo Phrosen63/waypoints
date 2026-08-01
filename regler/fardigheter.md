@@ -36,7 +36,7 @@ En misslyckad blockering leder till att spelaren blir träffad. När en spelare 
 
 Spelaren kan blockera inkommande attacker åt andra.
 
-Spelaren kan använda blockering för att avvärja en pil. 
+Spelaren kan använda blockering för att avvärja en projektil.  
 Spelaren kan ibland blockera även besvärjelser.
 
 ## Botanik
