@@ -63,6 +63,7 @@ taggar: [monster, starka]
 konfidentiell: true
 status: draft
 toc: true
+toc_nivaer: [2, 3]
 delbar: true
 tillbaka_knapp: false
 ---
@@ -79,11 +80,12 @@ Allt efter den avslutande `---` tolkas som markdown-brödtext.
 | `länkar` | objekt (kategori → lista) | Explicita, kategoriserade länkar till annat innehåll. Varje nyckel är en fri textkategori (t.ex. `regler`, `personer`, `platser`) och värdet är en lista med kortnamn (filnamn utan `.md`). Visas i länkpanelen till höger, grupperat per kategori. |
 | `relaterat` | lista | En platt lista med kortnamn på relaterat innehåll, utan kategori. Visas i en egen sektion i länkpanelen. |
 | `taggar` | lista | Fria etiketter för sökning/filtrering. Matchas mot filnamn och `namn` när man söker i trädet (sökrutan matchar mot filnamn + `namn` + `taggar` sammanslaget). |
-| `konfidentiell` | bool | Om `true`, döljs sidans innehåll bakom låssystemet tills upplåst (se nedan). Sätts oftast manuellt bara på enskilda **globala** filer (t.ex. en global boss som är tänkt som en spoiler) — allt inuti `aventyr/` är redan implicit konfidentiellt utan att detta behöver sättas. |
+| `konfidentiell` | bool | Om `true`, döljs sidans innehåll bakom låssystemet tills upplåst (se nedan). Sätts oftast manuellt bara på enskilda **globala** filer (t.ex. en global boss som är tänkt som en spoiler) - allt inuti `aventyr/` är redan implicit konfidentiellt utan att detta behöver sättas. |
 | `status` | sträng | Om satt till `draft`, visas en "✎ utkast"-badge bredvid typ-badgen högst upp på sidan. Rent visuellt, påverkar inget annat. |
-| `toc` | bool | Om `true`, genereras automatiskt en innehållsförteckning ("Innehåll") överst i dokumentet, baserad på alla `##`-rubriker (H2) i brödtexten. Klickbara länkar som skrollar till rätt sektion. |
-| `delbar` | bool | Om `true`, visas en "🔗 Kopiera delningslänk"-knapp högst upp på sidan (bara synlig för den som redan är upplåst). Knappen genererar en länk som visar **just den här sidan** olåst för mottagaren, utan att låsa upp resten av äventyret eller sessionen i övrigt. Se [Delning via URL](#delning-via-url) för hur detta fungerar och när det är lämpligt att använda. Sätts manuellt per sida — ärvs inte automatiskt av t.ex. alla monster eller allt äventyrsinnehåll. |
-| `tillbaka_knapp` | bool | Styr om den flytande "scrolla till toppen"-knappen ska visas på sidan. **Default är `true`** (knappen visas) om fältet helt saknas — sätt `tillbaka_knapp: false` för att medvetet stänga av den på enstaka sidor (t.ex. mycket korta sidor där den inte fyller något syfte). Knappen dyker upp automatiskt efter att man scrollat en bit ner i sidans innehåll. |
+| `toc` | bool | Om `true`, genereras automatiskt en innehållsförteckning ("Innehåll") överst i dokumentet. Vilka rubriknivåer som inkluderas styrs av `toc_nivaer` (se nedan) - standard är bara H2. Klickbara länkar som skrollar till rätt sektion. |
+| `toc_nivaer` | lista med tal | Styr vilka rubriknivåer (H1–H6) som tas med i innehållsförteckningen, t.ex. `[2, 3]` för att inkludera både H2 och H3. **Default är `[2]`** (bara H2) om fältet saknas eller innehåller ogiltiga värden - bakåtkompatibelt med sidor som redan har `toc: true` men inte detta fält. Kräver `toc: true` för att ha någon effekt. Om flera nivåer anges, indenteras djupare rubriker (t.ex. H3) visuellt under närmast föregående rubrik på en lägre nivå (t.ex. H2) i innehållsförteckningen. |
+| `delbar` | bool | Om `true`, visas en "🔗 Kopiera delningslänk"-knapp högst upp på sidan (bara synlig för den som redan är upplåst). Knappen genererar en länk som visar **just den här sidan** olåst för mottagaren, utan att låsa upp resten av äventyret eller sessionen i övrigt. Se [Delning via URL](#delning-via-url) för hur detta fungerar och när det är lämpligt att använda. Sätts manuellt per sida - ärvs inte automatiskt av t.ex. alla monster eller allt äventyrsinnehåll. |
+| `tillbaka_knapp` | bool | Styr om den flytande "scrolla till toppen"-knappen ska visas på sidan. **Default är `true`** (knappen visas) om fältet helt saknas - sätt `tillbaka_knapp: false` för att medvetet stänga av den på enstaka sidor (t.ex. mycket korta sidor där den inte fyller något syfte). Knappen dyker upp automatiskt efter att man scrollat en bit ner i sidans innehåll, oavsett om sidan har `toc: true` eller ej. |
 
 **Kortnamn**: när man refererar till en fil i `länkar`/`relaterat`, eller i en `[[wikilänk]]`, används alltid filnamnet utan `.md`-ändelse och utan sökväg - t.ex. `reva`, inte `monster/starka/reva.md`. Se [Länkning](#länkning) för hur upplösningen fungerar.
 
