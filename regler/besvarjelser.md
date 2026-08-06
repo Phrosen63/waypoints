@@ -16,36 +16,36 @@ Besvärjelser har nivåer (börjar på nivå 1). För varje ökad nivå blir bes
 
 ## Termer
 
-**Kasta** (eng cast, exempel: *to cast a spell*): Att använda en besvärjelse. Att kasta en besvärjelse innebär inte nödvändigtvis att effekten färdas.
+{.nyckelord}Kasta{/} (eng. cast; t.ex. *cast a spell*): Att använda en besvärjelse. Att kasta en besvärjelse innebär inte nödvändigtvis att effekten färdas.
 
-**Kastare** (eng: spell caster): Den som kastar besvärjelsen.
+{.nyckelord}Kastare{/} (eng. spell caster): Den som kastar besvärjelsen.
 
-**Målet/Offret**: Den eller de som besvärjelsen riktas mot. Målet kan vara samma som kastaren.
+{.nyckelord}Målet/Offret{/} Den eller de som besvärjelsen riktas mot. Målet kan vara samma som kastaren.
 
-**Krav:** Krav som karaktären måste uppfylla för att kunna kasta besvärjelsen. En karaktär som temporärt uppfyller kraven kan kasta besvärjelsen. Om inget krav är specificerat kan vem som helst lära sig besvärjelsen oavsett förutsättningar.
+{.nyckelord}Krav:{/} Krav som karaktären måste uppfylla för att kunna kasta besvärjelsen. En karaktär som temporärt uppfyller kraven kan kasta besvärjelsen. Om inget krav är specificerat kan vem som helst lära sig besvärjelsen oavsett förutsättningar.
 
-**Fiender**: Alla besvärjarens fiender som uppfyller kraven (till exempel inom området), ej vänner/allierade/neutrala.
+{.nyckelord}Fiender{/} Alla besvärjarens fiender som uppfyller kraven (till exempel inom området), ej vänner/allierade/neutrala.
 
-**Vänner**: Alla besvärjarens vänner, allierade eller neutrala som uppfyller kraven, ej fiender.
+{.nyckelord}Vänner{/} Alla besvärjarens vänner, allierade eller neutrala som uppfyller kraven, ej fiender.
 
-**Återhämtningstid** (eng: cooldown): den tid det tar (ofta angivet i stridsrundor) innan besvärjaren kan kasta samma besvärjelse igen.  
+{.nyckelord}Återhämtningstid{/} (eng. cooldown): den tid det tar (ofta angivet i stridsrundor) innan besvärjaren kan kasta samma besvärjelse igen.  
 Om inget värde angivits på besvärjelsen betyder det att besvärjaren kan upprepa besvärjelsen utan att vänta.
 
-**Kanalisera** (eng: channel): När kastaren startar och upprätthåller en besvärjelse. Ofta kan kastaren inte göra något annat än att kanalisera en besvärjelse. Kastaren kan vanligtvis avbryta kanaliseringen när som helst.
+{.nyckelord}Kanalisera{/} (eng. channel): När kastaren startar och upprätthåller en besvärjelse. Ofta kan kastaren inte göra något annat än att kanalisera en besvärjelse. Kastaren kan vanligtvis avbryta kanaliseringen när som helst.
 
-**Enkel-kast**: Motsatsen till **Kanalisera**; dvs när kastaren helt enkelt kastar en besvärjelse, exempelvis: hela. Om det inte uttryckligen står att en besvärjelse är av typen kanalisera så ska man förmoda att den är av typen enkel-kast.
+{.nyckelord}Enkel-kast{/} Motsatsen till {.nyckelord}Kanalisera{/}; dvs när kastaren helt enkelt kastar en besvärjelse, exempelvis: hela. Om det inte uttryckligen står att en besvärjelse är av typen kanalisera så ska man förmoda att den är av typen enkel-kast.
 
-**Tillkalla/Mana fram** (eng: summon): När kastaren manar fram något, ofta en betjänt av något slag, exempelvis en elementar, en odöd, eller en demon.
+{.nyckelord}Tillkalla/Mana fram{/} (eng. summon): När kastaren manar fram något, ofta en betjänt av något slag, exempelvis en elementar, en odöd, eller en demon.
 
-**Element**: Ersätts med det element (se kapitlet "Element och kategorier" nedan) kastaren har valt, exempelvis: Element-projektil: eld-projektil, Element-nova: blixt-nova.
+{.nyckelord}Element{/} Ersätts med det element (se kapitlet "Element och kategorier" nedan) kastaren har valt, exempelvis: Element-projektil: eld-projektil, Element-nova: blixt-nova.
 
-**Stärka** (eng: buff): Att temporärt göra målet starkare, exempelvis ge målet +X i alla handlingar. Kastas oftast på vänner.
+{.nyckelord}Stärka{/} (eng. buff): Att temporärt göra målet starkare, exempelvis ge målet +X i alla handlingar. Kastas oftast på vänner.
 
-**Försvaga** (eng: debuff): Motsatsen till **Stärka** - att temporärt göra målet svagare.
+{.nyckelord}Försvaga{/} (eng. debuff): Motsatsen till {.nyckelord}Stärka{/} - att temporärt göra målet svagare.
 
-**Stapla** (eng: stack): När effekterna av en besvärjelse bygger på varandra. Till exempel om målet får +2 STY och utsätts för samma besvärjelse igen så får hen +4 STY (effekten staplade). Oftast relevant för besvärjelser av typen **Stärka** och **Försvaga**.
+{.nyckelord}Stapla{/} (eng. stack): När effekterna av en besvärjelse bygger på varandra. Till exempel om målet får +2 STY och utsätts för samma besvärjelse igen så får hen +4 STY (effekten staplade). Oftast relevant för besvärjelser av typen {.nyckelord}Stärka{/} och {.nyckelord}Försvaga{/}.
 
-**Staplar ej**: Motsatsen till **Stapla**. Om det inte uttryckligen står att en besvärjelse staplar så ska man förmoda att den inte staplar.
+{.nyckelord}Staplar ej{/} Motsatsen till {.nyckelord}Stapla**. Om det inte uttryckligen står att en besvärjelse staplar så ska man förmoda att den inte staplar.
 
 ## Element och kategorier
 
