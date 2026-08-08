@@ -13,6 +13,7 @@ Den här filen dokumenterar hur innehållet ska struktureras och formateras för
 - [aventyr.yaml](#aventyryaml)
 - [Länkning](#länkning)
 - [Specialtaggar i brödtexten](#specialtaggar-i-brödtexten)
+  - [Om {.rå} och nästling](#om-rå-och-nästling)
 - [Bilder](#bilder)
 - [Låssystemet ("master password")](#låssystemet-master-password)
 - [Delning via URL](#delning-via-url)
@@ -181,10 +182,12 @@ Utöver vanlig markdown (rubriker, listor, tabeller, bilder, citat, etc.) stöds
 
 ### Wrapper-taggar: `{.klass}...{/}`
 
-Generell syntax för att wrappa ett stycke text - eller ett helt block med rubriker, listor och tabeller - i en stylbar container. Fungerar både **inline** (kort text mitt i en mening) och **blocknivå** (flera stycken/rubriker/tabeller):
+Generell syntax för att wrappa ett stycke text - eller ett helt block med rubriker, listor och tabeller - i en stylbar container.
+
+Varje tagg är **block** som default (egen ram/rad, bryter medvetet layouten - kan inte stå mitt i en mening). Lägg till suffixet **`-inline`** på klassnamnet - t.ex. `{.viktigt-inline}` - för att tvinga fram **inline-läge** istället: ingen egen rad, kan aldrig bryta det omgivande stycket, avsedd att sitta mitt i en mening. Suffixet fungerar på vilken klass som helst, både de fördefinierade nedan och egna/anpassade klassnamn.
 
 ```markdown
-Det här är {.viktigt}en viktig mening{/} mitt i texten.
+Det här är {.viktigt-inline}en viktig fras{/} mitt i en mening.
 
 {.spelledare}
 ## Attacker och förmågor
@@ -201,20 +204,36 @@ Anna går alltså före Björn i turordningen.
 {/}
 ```
 
+**Viktigt att komma ihåg när du skriver:** en blocktagg (utan `-inline`) mitt i en mening ger ogiltig, trasig HTML - stycket bryts sönder istället för att bara visa innehållet inramat. Använd blockvarianten bara när taggen ska stå på egen rad/eget stycke; använd `-inline` när den ska sitta mitt i löptext.
+
 Fördefinierade klasser:
 
 | Klass | Effekt |
 |---|---|
-| `spelledare` | Spelledarinnehåll. Visas alltid inramat (brun/guld ruta), både låst och upplåst. I låst läge visas texten "🔒 SL: Låst innehåll, lås upp för att visa." istället för det verkliga innehållet. Använd för SL-specifika hintar, hemligheter och taktikråd som ändå ska synas som en tydlig markerad ruta även efter upplåsning. |
-| `konfidentiellt` | Döljer innehållet helt tills upplåst (visar samma låsnotis-ruta som `spelledare` gör i låst läge). **Skillnaden**: när innehållet väl är upplåst renderas det helt normalt, utan någon ram eller specialstyling - som om taggen inte fanns. Använd när du bara vill hindra spoilers innan upplåsning, utan att permanent markera innehållet som "SL-material" i layouten. |
-| `bildtext` | Centrerad, kursiv, mindre text - för bildtexter direkt under en bild. |
-| `viktigt` | Framhäver text med guld-understrykning och fetare vikt, utan att dölja något. |
-| `effekt` | Framhäver text med lila understrykning och fetare vikt, utan att dölja något. Visuellt släkt med `viktigt` (samma stil, annan färg) - använd för att särskilja spelmekaniska effekter (skada, bonusar, statuseffekter) från allmänt viktig text i löpande brödtext. |
-| `citat` | Kursiv, serif-stil (display-fonten) - för in-universe-citat eller stämningsfulla rader. |
-| `exempel` | Ett tydligt avgränsat block (grön vänsterkant, ljust bakgrundstonad ruta) med en automatisk "Exempel:"-etikett överst. Använd för att ge ett konkret, förklarande exempel direkt efter en regel- eller mekanikbeskrivning - döljer inget, bara visuellt separerar exemplet från den omgivande löptexten. |
-| `nyckelord` | Framhäver ett ord eller en kort fras med gyllene, fetstil text - utan att dölja något. Till skillnad från övriga taggar är `nyckelord` en **ren inline-tagg**: den körs aldrig genom markdown-parsern och renderas alltid som en `<span>` mitt i löpande text, vilket garanterar att den aldrig bryter stycket den står i - oavsett hur kort eller lång texten är. Använd för att lyfta fram enstaka spelmekaniska termer (t.ex. statuseffekter) direkt i en mening. |
+| `spelledare` | Spelledarinnehåll. Visas alltid inramat (brun/guld ruta), både låst och upplåst. I låst läge visas en låsnotis istället för det verkliga innehållet ("🔒 SL: Låst innehåll, lås upp för att visa." som block, en kortare "🔒 SL" som inline). Använd för SL-specifika hintar, hemligheter och taktikråd som ändå ska synas som tydligt markerade även efter upplåsning. Finns i både block- och `-inline`-variant. |
+| `konfidentiellt` | Döljer innehållet helt tills upplåst (visar samma sorts låsnotis som `spelledare` gör i låst läge). **Skillnaden**: när innehållet väl är upplåst renderas det helt normalt, utan någon ram eller specialstyling - som om taggen inte fanns. Gäller oavsett block eller `-inline`. Använd när du bara vill hindra spoilers innan upplåsning, utan att permanent markera innehållet som "SL-material" i layouten. |
+| `bildtext` | Centrerad, kursiv, mindre text - för bildtexter direkt under en bild. Konceptuellt alltid block (står under en bild) - `-inline`-varianten finns men har sällan naturlig användning. |
+| `viktigt` | Framhäver text med guld-understrykning och fetare vikt, utan att dölja något. Blockvarianten är ett helt, avskilt stycke; `-inline` är en enstaka fras mitt i en mening. |
+| `effekt` | Framhäver text med lila understrykning och fetare vikt, utan att dölja något. Visuellt släkt med `viktigt` (samma stil, annan färg) - använd för att särskilja spelmekaniska effekter (skada, bonusar, statuseffekter) från allmänt viktig text. Block/`-inline` fungerar som `viktigt`. |
+| `citat` | Kursiv, serif-stil (display-fonten) - för in-universe-citat eller stämningsfulla rader. Blockvarianten är ett fristående, indraget citatstycke; `-inline` smälter in i den omgivande meningen. |
+| `exempel` | Ett tydligt avgränsat block (grön vänsterkant, ljust bakgrundstonad ruta) med en automatisk "Exempel:"-etikett överst (`-inline`-varianten får en kortare "Ex:"-prefix istället, ingen egen etikettrad). Använd för att ge ett konkret, förklarande exempel direkt efter en regel- eller mekanikbeskrivning - döljer inget, bara visuellt separerar exemplet från den omgivande löptexten. |
+| `rå` | Visar sitt innehåll **ordagrant** - ingen markdown- eller taggparsning sker alls inuti. Använd för att visa bokstavlig `{.klass}`-syntax (eller annan text som annars skulle tolkas) som exempel i dokumentationen, utan att den faktiskt aktiveras. Blockvarianten renderas som ett monospace-kodblock; `-inline` som `kod` mitt i en mening. Kan nästlas i eller runt andra taggar - se [Om `{.rå}` och nästling](#om-rå-och-nästling) nedan för en viktig begränsning. |
+| `nyckelord` | Framhäver ett ord eller en kort fras med gyllene, fetstil text - utan att dölja något. **Alltid inline oavsett suffix**: den körs aldrig genom markdown-parsern och renderas alltid som en `<span>` mitt i löpande text, vilket garanterar att den aldrig bryter stycket den står i - oavsett hur kort eller lång texten är. `-inline`-suffixet har ingen effekt på den här klassen (den är redan permanent inline) men skadar inte om det råkar sättas ändå. Använd för att lyfta fram enstaka spelmekaniska termer (t.ex. statuseffekter) direkt i en mening. |
 
 **OBS:** all `aventyr/`-mappinnehåll är redan implicit konfidentiellt på filnivå (se [Låssystemet](#låssystemet-master-password)) - `{.spelledare}`/`{.konfidentiellt}` behövs bara för att dölja *delar* av en sida, eller för att markera SL-material inuti en annars publik, global sida (t.ex. en global regel- eller monstersida som har en spoiler-sektion).
+
+### Om `{.rå}` och nästling
+
+`{.rå}` (och `{.rå-inline}`) kan innehålla andra taggars syntax som ren text, t.ex.:
+
+```markdown
+Skriv {.rå-inline}{.viktigt-inline}text{/}{/} för att markera något som viktigt.
+```
+→ visar bokstavligen `{.viktigt-inline}text{/}` i en kodliknande markering, utan att taggen faktiskt aktiveras.
+
+**Begränsning:** ett *komplett* `{.klass}...{/}`-par kan inte skrivas rakt av inuti `{.rå}` om det innehåller egen text mellan öppning och stängning på det sättet - parsern parar alltid ihop en `{/}` med senast öppnade taggen, så en extra inre stängning kan "läcka ut" och råka stänga `{.rå}` för tidigt, eller tvärtom fortsätta leta efter sin egen stängning längre fram i dokumentet än du tänkt dig. Skriv istället `{.rå}`s egen stängning `{/}` **direkt efter** den inre taggens `{/}`, som i exemplet ovan (`{.rå-inline}{.viktigt-inline}text{/}{/}`) - då fungerar det pålitligt. `[[wikilänkar]]` och enstaka `{`/`}`-tecken kräver ingen sådan försiktighet och kan skrivas rakt av inuti `{.rå}` utan problem.
+
+Inga HTML-entities (`&#123;` etc.) behövs för att visa bokstavlig tagg-syntax - `{.rå}` hanterar escapingen automatiskt.
 
 ### TODO-markering
 
