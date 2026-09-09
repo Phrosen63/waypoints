@@ -14,9 +14,9 @@ Så fort en karaktär med avståndsvapen befinner sig inom räckvidd för en fie
 {.nyckelord}Närstridshot{/} hävs om karaktären växlar till ett eget närstridsvapen.
 
 {.effekt}
-Effekt: {.nyckelord}närstridshot{/} -5 på alla handlingar.
+Effekt: -5 på alla handlingar.
 {/}
 
 {.viktigt}
-Krigare kan låsa upp **Oförskräckt** – en passiv magisk förmåga som upphäver de negativa effekterna av {.nyckelord}närstridshot{/}.
+Krigare kan låsa upp 'Oförskräckt' – en passiv magisk förmåga som upphäver de negativa effekterna av {.nyckelord}närstridshot{/}.
 {/}
