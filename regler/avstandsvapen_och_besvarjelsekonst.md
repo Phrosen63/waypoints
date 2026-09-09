@@ -3,7 +3,7 @@ type: regel
 namn: Avståndsvapen och besvärjelsekonst
 länkar:
   regler: []
-relaterat: [handlingar_i_strid, vapenfardigheter]
+relaterat: [handlingar_i_strid, vapenfardigheter, krigare]
 taggar: [strid, grundregler]
 ---
 
@@ -15,4 +15,8 @@ Så fort en karaktär med avståndsvapen befinner sig inom räckvidd för en fie
 
 {.effekt}
 Effekt: {.nyckelord}närstridshot{/} -5 på alla handlingar.
+{/}
+
+{.viktigt}
+Krigare kan låsa upp **Oförskräckt** – en passiv magisk förmåga som upphäver de negativa effekterna av {.nyckelord}närstridshot{/}.
 {/}
