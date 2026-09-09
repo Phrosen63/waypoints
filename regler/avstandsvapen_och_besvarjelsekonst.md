@@ -18,5 +18,5 @@ Effekt: -5 på alla handlingar.
 {/}
 
 {.viktigt}
-Krigare kan låsa upp 'Oförskräckt' – en passiv magisk förmåga som upphäver de negativa effekterna av {.nyckelord}närstridshot{/}.
+Krigare kan låsa upp 'Oförskräckt' - en passiv magisk förmåga som upphäver de negativa effekterna av {.nyckelord}närstridshot{/}.
 {/}
