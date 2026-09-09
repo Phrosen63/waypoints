@@ -7,7 +7,7 @@ relaterat: [besvarjelser, grundegenskaper]
 taggar: [strid, grundregler]
 ---
 
-Karaktärer kan ha olika styrkor och svagheter, exempelvis en sårbarhet mot specifika element (som vatten) eller kategorier (som heligt eller andemagi). Odöda är ofta särskilt mottagliga för helig magi men motståndskraftiga mot andemagi och ohelig magi. Vanligtvis innebär en svaghet mot ett element att den mottagna skadan ökar med 150–200%.
+Karaktärer kan ha olika styrkor och svagheter, exempelvis en sårbarhet mot specifika element (som vatten) eller kategorier (som heligt eller andemagi). Odöda är ofta särskilt mottagliga för helig magi men motståndskraftiga mot andemagi och ohelig magi. Vanligtvis innebär en svaghet mot ett element att den mottagna skadan ökar med 150-200%.
 
 **Scenario 1:**
 

@@ -66,9 +66,9 @@ Rotmaroks rötter är kraftfulla och vrider sig som ormar genom marken, vilket g
 
 | Resultat | Träffpunkt | RV | KP |
 | :--- | :--- | :---: | :---: |
-| 1 | Huvud | – | 93 |
-| 2–7 | Kropp | 4 | 187 |
-| 8–20 | Tentakler | – | 20 |
+| 1 | Huvud | - | 93 |
+| 2-7 | Kropp | 4 | 187 |
+| 8-20 | Tentakler | - | 20 |
 
 > **Obs:** Rotmarok kan bara bli skadad i huvudet eller kroppen. Om en tentakel blir skadad/förstörd växer en ny ut i dess ställe.
 

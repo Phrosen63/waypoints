@@ -70,13 +70,13 @@ Dimman som utsöndras från Nyctalidens kropp spelar spratt med offrens sinnen. 
 
 | Resultat | Träffpunkt | RV | KP |
 | :--- | :--- | :---: | :---: |
-| 1–2 | Huvud | - | 87 |
-| 3–4 | Höger arm | - | 87 |
-| 5–6 | Vänster arm | - | 87 |
-| 7–11 | Bröst | - | 175 |
-| 12–14 | Mage | - | 116 |
-| 15–17 | Höger ben | - | 116 |
-| 18–20 | Vänster ben | - | 116 |
+| 1-2 | Huvud | - | 87 |
+| 3-4 | Höger arm | - | 87 |
+| 5-6 | Vänster arm | - | 87 |
+| 7-11 | Bröst | - | 175 |
+| 12-14 | Mage | - | 116 |
+| 15-17 | Höger ben | - | 116 |
+| 18-20 | Vänster ben | - | 116 |
 
 ## Motstånd och svagheter
 

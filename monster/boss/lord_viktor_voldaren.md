@@ -14,13 +14,13 @@ delbar: true
 
 Med sin ljusa hy och gyllenblonda, halvlånga hår är han en imponerande syn. Han är lång och smal, men hans välskräddade kläder döljer en vältränad fysik. Vid första anblick framstår han som en attraktiv ung aristokrat.
 
-Men en närmare granskning avslöjar subtila tecken på hans sanna natur. Under hans ögon löper mörkröda streck likt blixtar under huden – ett tydligt tecken på den ondskefulla magi som genomsyrar hans varelse.
+Men en närmare granskning avslöjar subtila tecken på hans sanna natur. Under hans ögon löper mörkröda streck likt blixtar under huden - ett tydligt tecken på den ondskefulla magi som genomsyrar hans varelse.
 
 > **Om spelarna klarar ett PER-slag:** > Ni noterar att hans hörntänder är något längre och spetsigare än normalt, vilket antyder ett möjligt släktskap med vampyrer. När ljuset faller rätt över hans ögon kan man skymta en röd glöd i irisarna.
 
 Hans sätt att tala och röra sig utstrålar en överlägsenhet, typisk för den högsta adeln. Varje gest och ord förmedlar att han ser sig själv som överlägsen allt och alla omkring honom.
 
-Bossen är klädd i vackra, exklusiva kläder som är helt fria från den smuts och förfall som präglar resten av staden. Hans långa hår är omsorgsfullt uppsatt, och hans naglar är noggrant manikyrerade – ett tecken på hans fåfänga och känsla för perfektion.
+Bossen är klädd i vackra, exklusiva kläder som är helt fria från den smuts och förfall som präglar resten av staden. Hans långa hår är omsorgsfullt uppsatt, och hans naglar är noggrant manikyrerade - ett tecken på hans fåfänga och känsla för perfektion.
 
 Kontrasten mellan hans prydliga, ungdomliga uppenbarelse och den mörka kraften som lurar under ytan skapar en fascinerande och skrämmande närvaro.
 
@@ -28,7 +28,7 @@ Kontrasten mellan hans prydliga, ungdomliga uppenbarelse och den mörka kraften 
 
 ## Agenda
 
-Lord Viktor Voldaren har en agenda som sträcker sig långt bortom kontrollen över Dysterhamn. Hans mål är att använda staden som ett nav för att samla en mäktig armé av odöda och demoniska varelser. Genom sina studier av både mörk magi och vampyrism har han upptäckt en ritual som kan släppa lös en kraft han kallar **"Evig natt"** – en permanent förmörkelse som kommer att överskugga världen, vilket ger honom obegränsad makt och odödlighet.
+Lord Viktor Voldaren har en agenda som sträcker sig långt bortom kontrollen över Dysterhamn. Hans mål är att använda staden som ett nav för att samla en mäktig armé av odöda och demoniska varelser. Genom sina studier av både mörk magi och vampyrism har han upptäckt en ritual som kan släppa lös en kraft han kallar **"Evig natt"** - en permanent förmörkelse som kommer att överskugga världen, vilket ger honom obegränsad makt och odödlighet.
 
 För att genomföra denna ritual krävs specifika föremål, gamla texter och blodsoffer från nyckelfigurer i staden, vilket förklarar varför Dysterhamn har fallit. Han manipulerar och kontrollerar olika monster och ondskefulla krafter för att hålla invånarna i schack, samtidigt som han samlar det sista han behöver för att fullborda sitt mål.
 
@@ -142,13 +142,13 @@ Viktor försöker övertala spelarna att gå över till den onda sidan:
 
 | Resultat | Träffpunkt | RV | KP |
 | :--- | :--- | :---: | :---: |
-| 1–2 | Huvud | 10 | 100 |
-| 3–4 | Höger arm | 10 | 100 |
-| 5–6 | Vänster arm | 10 | 100 |
-| 7–11 | Bröst | 10 | 200 |
-| 12–14 | Mage | 10 | 166 |
-| 15–17 | Höger ben | 10 | 166 |
-| 18–20 | Vänster ben | 10 | 166 |
+| 1-2 | Huvud | 10 | 100 |
+| 3-4 | Höger arm | 10 | 100 |
+| 5-6 | Vänster arm | 10 | 100 |
+| 7-11 | Bröst | 10 | 200 |
+| 12-14 | Mage | 10 | 166 |
+| 15-17 | Höger ben | 10 | 166 |
+| 18-20 | Vänster ben | 10 | 166 |
 
 ---
 

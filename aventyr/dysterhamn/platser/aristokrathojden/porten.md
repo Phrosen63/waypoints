@@ -13,7 +13,7 @@ Framför er reser sig en majestätisk port som markerar gränsen till Aristokrat
 
 Hela porten omges av en nästan osynlig aura av magi. Ibland skimrar luften runt den som värmeskimmer en het sommardag, och ibland dansar små gnistor av ren magisk energi över dess yta. När man kommer nära kan man känna en svag vibration i luften, som om porten sjöng en ohörbar melodi av ren kraft.
 
-Trots portens skönhet och prakt vilar det något hotfullt över den. Den står där som en outtalad utmaning, en sista gräns mellan er och ert mål, väntande på att bli öppnad av de värdiga – eller förbli för evigt stängd för dem som misslyckas.
+Trots portens skönhet och prakt vilar det något hotfullt över den. Den står där som en outtalad utmaning, en sista gräns mellan er och ert mål, väntande på att bli öppnad av de värdiga - eller förbli för evigt stängd för dem som misslyckas.
 
 Porten kan inte öppnas eftersom den är låst med mäktig magi. Det enda sättet att öppna den är att samla de tre sigillen och förstöra dem. De tre sigillen vaktas av bossar runt om i staden:
 

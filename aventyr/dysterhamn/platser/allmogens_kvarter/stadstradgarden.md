@@ -38,7 +38,7 @@ Varje stridsrunda som spelarna befinner sig i växthuset slår SL en T20, om res
 
 Om skrymanten dyker upp:
 
-”När ni utforskar det övergivna växthuset, märker ni plötsligt att något inte stämmer. En djup, obehaglig tystnad sänker sig över platsen, och skuggorna i hörnen verkar plötsligt tjockna och dra sig samman. Ur mörkret framträder en gestalt – hög och insvept i en sliten, mörk kappa. Två gula, glödande ögon lyser under huvan och riktar sig mot er med en kuslig intensitet.
+”När ni utforskar det övergivna växthuset, märker ni plötsligt att något inte stämmer. En djup, obehaglig tystnad sänker sig över platsen, och skuggorna i hörnen verkar plötsligt tjockna och dra sig samman. Ur mörkret framträder en gestalt - hög och insvept i en sliten, mörk kappa. Två gula, glödande ögon lyser under huvan och riktar sig mot er med en kuslig intensitet.
 
 Gestalten rör sig ljudlöst framåt, och när den kommer närmare, ser ni de långa, vassa naglarna på dess sexfingrade händer. De reflekterar svagt ljuset från de krossade glasrutorna ovanför er. När ni står där, frusna av skräck, kan ni nästan känna hur rötterna som utgör dess ansikte vrider sig, som om de smakar på er rädsla.
 

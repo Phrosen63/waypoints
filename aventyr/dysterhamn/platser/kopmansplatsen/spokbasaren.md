@@ -21,7 +21,7 @@ Spökbasarens stånd står som tysta vittnen till en förlorad tid, deras forna 
 
 Rostiga spikar sticker ut från de sammanfallande strukturerna, och trasiga tygskynken som en gång skyddade varorna från solens hetta hänger i sönderrivna bitar, fladdrande svagt i den stilla luften.
 
-De flesta ståndens bord är täckta av spillror – skärvor av porslin, trasiga kistor och kvarlämnade varor som nu är övervuxna med mörka, slingrande rankor. Här och där syns tecken på att varor har plundrats, med öppna, tomma lådor och utspridda mynt, gröna av ärg.
+De flesta ståndens bord är täckta av spillror - skärvor av porslin, trasiga kistor och kvarlämnade varor som nu är övervuxna med mörka, slingrande rankor. Här och där syns tecken på att varor har plundrats, med öppna, tomma lådor och utspridda mynt, gröna av ärg.
 
 Spindelväv täcker alla ytor och sträcker sig som ett klibbigt nät över hyllorna och runt de få föremål som är kvar.
 
@@ -46,7 +46,7 @@ Nu ekar spöklika budgivningsröster genom salen, och föremål dyker mystiskt u
 Följande föremål dyker upp på auktionen när spelarna är där:
 
 - En pergamentrulle med en besvärjelse: **Tillkalla elementar** ([se besvärjelser](https://docs.google.com/document/u/0/d/13GoOxZoEvAYiX25yw1MRZT3iX9houPopdRtECf0nfpo/edit)). Budgivningen slutar vid 6 guld, 3 silver.
-- [Själafängare](https://docs.google.com/document/u/0/d/13TLu2LzBpS-shySRSMdBeDcNpthMkddnoyqR8p3PQF8/edit) – En ondskefull kristallkula som kan fånga och förvara själar. Budgivningen slutar vid 8 guld, 82 silver.
+- [Själafängare](https://docs.google.com/document/u/0/d/13TLu2LzBpS-shySRSMdBeDcNpthMkddnoyqR8p3PQF8/edit) - En ondskefull kristallkula som kan fånga och förvara själar. Budgivningen slutar vid 8 guld, 82 silver.
 - En magisk bur med [ett andedjur i](https://docs.google.com/document/u/0/d/1nvjSPORs-KqiM1yiCl4gxaTjlz_kQEsPAcCzpPC5jgQ/edit). Budgivningen slutar vid 5 guld, 35 silver.
 - En [kunskapsrulle](https://docs.google.com/document/u/0/d/1A58ARWyhVk54OEyJ33cEJJ-9Aktlh8tDapCaRvG64Q0/edit). Budgivningen slutar vid 2 guld, 15 silver.
 - [En mörk, magisk dolk](https://docs.google.com/document/u/0/d/1Ra-3l4JXXmmutQN3-F_mQddKYjexS7OU139aweX-1h8/edit). Budgivningen slutar vid 3 guld, 72 silver.
@@ -54,7 +54,7 @@ Följande föremål dyker upp på auktionen när spelarna är där:
 
 ## Ezras bländande menageri
 
-Ezras bländande menageri var en gång Dysterhamns mörkaste hemlighet – en plats som lockade både avsky och fascination hos stadens invånare.
+Ezras bländande menageri var en gång Dysterhamns mörkaste hemlighet - en plats som lockade både avsky och fascination hos stadens invånare.
 
 Beläget i utkanten av Spökbasaren var detta en samling av det bisarra och groteska snarare än en traditionell djurpark. Grundaren, den ökände excentriske adelsmannen **Ezra Darnok**, samlade här de mest förvrängda och onaturliga varelser han kunde hitta från världens alla hörn.
 
@@ -90,7 +90,7 @@ Ett kvävande sus hörs, som från tusentals andedräkter. Det luktar starkt av 
 
 Slingrande gångar av hopsjunken mark och grumliga pölar slingrar sig genom träsket. Trasiga metallstänger och rostiga burar dyker upp ur dimman.
 
-Plötsligt ser ni rörelser – en skepnad, dimmig och otydlig, kommer simmande mot er.
+Plötsligt ser ni rörelser - en skepnad, dimmig och otydlig, kommer simmande mot er.
 
 Spelarna anfalls av en krokodil-liknande varelse (svag). Strid!
 

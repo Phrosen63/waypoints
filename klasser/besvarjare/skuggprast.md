@@ -101,12 +101,12 @@ Spelaren kan välja att inte slå tärningen, i så fall blir infernalikern auto
 
 | Resultat | Effekt |
 |---|---|
-| 1-2 | **Paktlös** – infernalikern har ännu inte lyckats ingå en giltig pakt, ingen bonus |
-| 3-7 | **Lägre demon** – Infernalikern har ingått en pakt med en lägre demon, som har lurat infernalikern att tro att den är mäktigare än den är.<br><br>Infernalikern får +1 på Kontrollera lägre demon. |
-| 8-12 | **Medelstark demon** – Infernalikern har ingått en pakt med en medelstark demon.<br><br>Infernalikern får +2 på Kontrollera lägre demon och +1 på all skada som demoner kontrollerade av infernalikern gör. |
-| 13-16 | **Stark demon** – Infernalikern har ingått en pakt med en stark demon.<br><br>Infernalikern får +2 på Kontrollera lägre demon och +2 på all skada som demoner kontrollerade av infernalikern gör. |
-| 17-19 | **Mycket stark demon** – Infernalikern har ingått ett förbund med en mycket stark demon.<br><br>Infernalikern får +2 på Kontrollera lägre/högre demon och +2 på all skada som demoner kontrollerade av infernalikern gör. |
-| 20 | **Demonfurste** – Infernalikern har ingått ett förbund med en demonfurste.<br><br>Infernalikern får +2 på att kontrollera lägre/högre demon och +2 på all skada som demoner kontrollerade av infernalikern gör.<br><br>Infernalikern kan dessutom frammana ännu en demon när hen kastar besvärjelsen Tillkalla lägre/högre demon. |
+| 1-2 | **Paktlös** - infernalikern har ännu inte lyckats ingå en giltig pakt, ingen bonus |
+| 3-7 | **Lägre demon** - Infernalikern har ingått en pakt med en lägre demon, som har lurat infernalikern att tro att den är mäktigare än den är.<br><br>Infernalikern får +1 på Kontrollera lägre demon. |
+| 8-12 | **Medelstark demon** - Infernalikern har ingått en pakt med en medelstark demon.<br><br>Infernalikern får +2 på Kontrollera lägre demon och +1 på all skada som demoner kontrollerade av infernalikern gör. |
+| 13-16 | **Stark demon** - Infernalikern har ingått en pakt med en stark demon.<br><br>Infernalikern får +2 på Kontrollera lägre demon och +2 på all skada som demoner kontrollerade av infernalikern gör. |
+| 17-19 | **Mycket stark demon** - Infernalikern har ingått ett förbund med en mycket stark demon.<br><br>Infernalikern får +2 på Kontrollera lägre/högre demon och +2 på all skada som demoner kontrollerade av infernalikern gör. |
+| 20 | **Demonfurste** - Infernalikern har ingått ett förbund med en demonfurste.<br><br>Infernalikern får +2 på att kontrollera lägre/högre demon och +2 på all skada som demoner kontrollerade av infernalikern gör.<br><br>Infernalikern kan dessutom frammana ännu en demon när hen kastar besvärjelsen Tillkalla lägre/högre demon. |
 
 Infernaliker börjar med inriktningen Demonologi. 
 Infernaliker börjar även med följande [[besvarjelser|besvärjelser]]:

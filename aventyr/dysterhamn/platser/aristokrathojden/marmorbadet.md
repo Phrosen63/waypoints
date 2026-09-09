@@ -15,7 +15,7 @@ Mosaikgolven, som en gång skildrade vackra undervattensscener, är nu hala av s
 
 **I ångbaden väller en tjock, giftgrön dimma ut**, och bisarra ljud ekar från dess djup. Massagerummen har förvandlats till tortyrkammare, där rostiga verktyg ligger utspridda på en gång så mjuka divaner.
 
-Den magnifika kupolen, tidigare känd för sin akustik, förstärker nu olycksbådande viskningar och avlägsna skrik. Trots förfallet finns glimtar av badhusets forna prakt kvar – en intakt staty här, en gnistrande mosaik där – vilket gör kontrasten mot den nuvarande skräcken än mer slående.
+Den magnifika kupolen, tidigare känd för sin akustik, förstärker nu olycksbådande viskningar och avlägsna skrik. Trots förfallet finns glimtar av badhusets forna prakt kvar - en intakt staty här, en gnistrande mosaik där - vilket gör kontrasten mot den nuvarande skräcken än mer slående.
 
 En [skugghäxa](https://docs.google.com/document/u/0/d/1ri4-mE_VuiooCTr5jNSCSEKLNKLkPv3kHalyeh6Apxg/edit) och två [dysterlingar](https://docs.google.com/document/u/0/d/1agogEdqPciJjHCKN3xG5o89nq4MbcIBkkPJeLTYzbfw/edit) befinner sig här. Strid!
 

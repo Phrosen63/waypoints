@@ -23,7 +23,7 @@ Spelarna kan i korthet utforska handelsborgen, men kommer snabbt närma sig salu
 
 När spelarna går ut på saluhallens golv:
 
-> Ni kliver ut på det bräckliga golvet i saluhallen, och en tryckande tystnad omger er. Plötsligt börjar marken vibrera under era fötter, och en skrämmande mörk dimma breder ut sig. Ur dimman träder en enorm, skräckinjagande gestalt fram – Rotmarok.
+> Ni kliver ut på det bräckliga golvet i saluhallen, och en tryckande tystnad omger er. Plötsligt börjar marken vibrera under era fötter, och en skrämmande mörk dimma breder ut sig. Ur dimman träder en enorm, skräckinjagande gestalt fram - Rotmarok.
 >
 > Denna fruktansvärda varelse, som en levande trädstam av vridna rötter och ben, har en grotesk döskalle som huvud. Rötterna vrider sig som ormar och slår mot marken, medan en illaluktande aura sprider sig omkring er.
 >

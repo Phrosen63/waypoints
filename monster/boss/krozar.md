@@ -18,7 +18,7 @@ Krozar, en eldsdemon vars blotta existens utmanar naturens lagar. Denna skräcki
 
 Krozars torso är ett groteskt skådespel av förstörelse och infernalisk kraft. Genom djupa revor och sprickor i bröst och mage flämtar en intensiv, pulserande brand. Denna inre eld sträcker sig mot hans rygg, där den bryter fram mellan rader av vassa, benpansar-liknande taggar som sticker ut likt en dödlig krona.
 
-Hans huvud pryds av två massiva, vridna horn som skjuter upp mot himlen, en tydlig manifestation av hans demoniska härkomst. Men det är Krozars ögon som verkligen fångar och skrämmer betraktaren – djupa hålor fyllda med samma rasande inferno som brinner inom honom. Dessa flammande ögon tycks borra sig in i själen på alla som vågar möta hans blick.
+Hans huvud pryds av två massiva, vridna horn som skjuter upp mot himlen, en tydlig manifestation av hans demoniska härkomst. Men det är Krozars ögon som verkligen fångar och skrämmer betraktaren - djupa hålor fyllda med samma rasande inferno som brinner inom honom. Dessa flammande ögon tycks borra sig in i själen på alla som vågar möta hans blick.
 
 * **Höjd:** Cirka 3 meter
 
@@ -50,7 +50,7 @@ Hans huvud pryds av två massiva, vridna horn som skjuter upp mot himlen, en tyd
 ### Askmolnsmantel
 * **FV:** 16
 * **Varaktighet:** 1T6 SR
-* **Beskrivning:** Krozar sveper in sig i en magisk mantel av aska. Manteln gör det svårare att träffa Krozar med magiska attacker (alla magiska attacker och förmågor mot Krozar får -3 att lyckas). Om en magisk attack träffar Krozar sprids ett moln av aska i rummet som förvirrar motståndarna – och gör att de inte kan utföra fler attacker mot Krozar under den stridsrundan.
+* **Beskrivning:** Krozar sveper in sig i en magisk mantel av aska. Manteln gör det svårare att träffa Krozar med magiska attacker (alla magiska attacker och förmågor mot Krozar får -3 att lyckas). Om en magisk attack träffar Krozar sprids ett moln av aska i rummet som förvirrar motståndarna - och gör att de inte kan utföra fler attacker mot Krozar under den stridsrundan.
 * *Obs:* Om Krozar aktiverar askmolnsmanteln igen när den redan är aktiv nollställs varaktigheten.
 
 ---
@@ -62,13 +62,13 @@ Hans huvud pryds av två massiva, vridna horn som skjuter upp mot himlen, en tyd
 
 | Resultat | Träffpunkt | RV | KP |
 | :--- | :--- | :---: | :---: |
-| 1–2 | Huvud | 6 | 125 |
-| 3–4 | Höger arm | 6 | 125 |
-| 5–6 | Vänster arm | 6 | 125 |
-| 7–11 | Bröst | 6 | 250 |
-| 12–14 | Mage | 6 | 166 |
-| 15–17 | Höger ben | 6 | 166 |
-| 18–20 | Vänster ben | 6 | 166 |
+| 1-2 | Huvud | 6 | 125 |
+| 3-4 | Höger arm | 6 | 125 |
+| 5-6 | Vänster arm | 6 | 125 |
+| 7-11 | Bröst | 6 | 250 |
+| 12-14 | Mage | 6 | 166 |
+| 15-17 | Höger ben | 6 | 166 |
+| 18-20 | Vänster ben | 6 | 166 |
 
 ---
 
@@ -78,7 +78,7 @@ Hans huvud pryds av två massiva, vridna horn som skjuter upp mot himlen, en tyd
 | :--- | :---: |
 | Fysisk | 50% |
 | Magisk | 50% |
-| Magisk – Is | 200% |
+| Magisk - Is | 200% |
 | Helig | 200% |
 
 ---

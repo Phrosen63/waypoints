@@ -32,16 +32,16 @@ Följande rustningsfärdigheter finns:
 
 * **RF: lätta rustningar**  
   Exempel: Tjockt tyg, mjukt läder, vadderad dräkt (aketon eller gambeson)  
-  RV: 1–2
+  RV: 1-2
 * **RF: smidiga rustningar**  
   Exempel:  Nitat läder, förstärkt läder med metallringar, hårt läder förstärkt med smidiga plåtplattor  
-  RV: 2–3
+  RV: 2-3
 * **RF: medeltunga rustningar**  
   Exempel:  Renodlad ringbrynja, brynjor kombinerade med läder eller tyg, lamellrustning (små överlappande plåtar fästa på tyg eller läder)  
-  RV: 4–5
+  RV: 4-5
 * **RF: tunga rustningar**  
   Exempel: Helplåtrustning, bröstplåt kombinerad med ringbrynja eller läder, halvplåtrustning (med skydd på bröst, axlar och ben)  
-  RV: 6–8
+  RV: 6-8
 
 **Notera:** Rustningsvärdena ovan är endast rekommendationer. Magiska rustningar, som till exempel en förtrollad läderrustning, kan ha betydligt högre RV än vad listan antyder.
 

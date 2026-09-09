@@ -11,7 +11,7 @@ taggar: []
 
 Bokbindarens verkstad är ett tyst och mörkt rum som bär på en atmosfär av gamla tider och hantverksskicklighet. I luften hänger doften av gammalt läder, papper och lim. Rummet är fyllt av verktyg och material som användes för att skapa och reparera böcker.
 
-Centralt i rummet står en stor **arbetsbänk**, täckt av olika verktyg som stämjärn, skalpeller och pressar. På bänken ligger också flera pågående projekt – några halvbundna böcker och lösa sidor som väntar på att bli ihopsatta.
+Centralt i rummet står en stor **arbetsbänk**, täckt av olika verktyg som stämjärn, skalpeller och pressar. På bänken ligger också flera pågående projekt - några halvbundna böcker och lösa sidor som väntar på att bli ihopsatta.
 
 Om spelarna letar igenom arbetsbänken hittar de en bunt ritningar där en av ritningarna visar något som kallas **Alkemistens verkstad**. Om de granskar ritningarna upptäcker de att det tycks finnas ett dolt rum i laboratoriet.
 

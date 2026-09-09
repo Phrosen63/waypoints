@@ -17,7 +17,7 @@ I svunna tider kantades Esplanaden av mäktiga träd som gav skugga och skönhet
 
 Spår av strider syns överallt. Djupa fåror i marken vittnar om jättelika varelsers framfart. Mystiska runor, ristade i de fallna trädens stubbar, pulserar svagt med en olycksbådande glöd.
 
-Längs gatans kanter ligger högar av benrester – några mänskliga, andra alltför stora eller märkligt formade för att ha tillhört någon vanlig varelse. Klomärken rispade i husfasaderna vittnar om de enorma bestar som nu strövar genom staden.
+Längs gatans kanter ligger högar av benrester - några mänskliga, andra alltför stora eller märkligt formade för att ha tillhört någon vanlig varelse. Klomärken rispade i husfasaderna vittnar om de enorma bestar som nu strövar genom staden.
 
 Stora slemspår glänser fortfarande i solljuset, torkade till en motbjudande skorpa längs gatans stenar.
 

@@ -16,7 +16,7 @@ Marvdrottningen är en boss-fiende. Det krävs en grupp äventyrare som är väl
 
 Marvdrottningen är en skräckinjagande varelse som kombinerar drag från både spindlar och människor på ett groteskt sätt. Hennes massiva kropp påminner om en gigantisk spindel, med långa, ledade ben som avslutas i vassa klor. Dessa ben ger henne både snabbhet och en skrämmande räckvidd.
 
-Det mest kusliga med marvdrottningen är hennes huvud – en enorm dödskalle som sitter på en spindelliknande kropp. Denna makabra kombination förstärker hennes onaturliga och skräckinjagande natur.
+Det mest kusliga med marvdrottningen är hennes huvud - en enorm dödskalle som sitter på en spindelliknande kropp. Denna makabra kombination förstärker hennes onaturliga och skräckinjagande natur.
 
 Likt en spindel spinner marvdrottningen nät, men dessa är grövre och starkare än vanliga spindelnät. Hon använder näten både för att fånga byten och för att skapa ett hem åt sig själv och sin koloni av marvar.
 
@@ -69,11 +69,11 @@ Marvdrottningen är en skrämmande hybrid mellan spindel och människa, en monst
 | Resultat | Träffpunkt | RV | KP |
 | :--- | :--- | :---: | :---: |
 | 1 | Huvud | 4 | 100 |
-| 2–3 | Höger arm | 6 | 100 |
-| 4–5 | Vänster arm | 6 | 100 |
-| 6–9 | Bröst | 6 | 200 |
-| 10–13 | Mage | 6 | 100 |
-| 14–20 | Ben | 12 | 200 |
+| 2-3 | Höger arm | 6 | 100 |
+| 4-5 | Vänster arm | 6 | 100 |
+| 6-9 | Bröst | 6 | 200 |
+| 10-13 | Mage | 6 | 100 |
+| 14-20 | Ben | 12 | 200 |
 
 ---
 

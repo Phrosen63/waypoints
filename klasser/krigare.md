@@ -10,7 +10,7 @@ status: draft
 
 # Krigare
 
-Krigare är stridskonstnärer av stål och vilja, tränade för att möta sina fiender i öppen konfrontation. De har hängivit sina liv åt vapenkunskap och fysisk styrka, och deras mod är legendariskt. Med skicklighet och uthållighet står de fast på slagfältet, beredda att möta varje hot, oavsett storlek eller styrka. De är mästare på att använda svärd, sköld, yxa och spjut, och deras tunga rustningar gör dem till oförtröttliga beskyddare av sina allierade. En krigare är den första att rusa in i striden och den sista att lämna slagfältet – en osviklig väktare och en kraft att räkna med i alla strider.
+Krigare är stridskonstnärer av stål och vilja, tränade för att möta sina fiender i öppen konfrontation. De har hängivit sina liv åt vapenkunskap och fysisk styrka, och deras mod är legendariskt. Med skicklighet och uthållighet står de fast på slagfältet, beredda att möta varje hot, oavsett storlek eller styrka. De är mästare på att använda svärd, sköld, yxa och spjut, och deras tunga rustningar gör dem till oförtröttliga beskyddare av sina allierade. En krigare är den första att rusa in i striden och den sista att lämna slagfältet - en osviklig väktare och en kraft att räkna med i alla strider.
 
 # Spelstil: Krigare
 
@@ -105,7 +105,7 @@ Maxnivå: 10
 * **Granitkropp:** Krigarens kropp genomsyras av en uråldrig seghet, som gör kött och ben hårda som urberg och sega som rötter. 
 Effekt: +5 FYS per nivå 
 Maxnivå: 10
-* **Titan:** Den fulländade fysiska formen, där krigarens kropp nått legendariska proportioner – en harmonisk förening av styrka, snabbhet och uthållighet som maximerar alla krigarens grundläggande stridsförmågor. 
+* **Titan:** Den fulländade fysiska formen, där krigarens kropp nått legendariska proportioner - en harmonisk förening av styrka, snabbhet och uthållighet som maximerar alla krigarens grundläggande stridsförmågor. 
 Krav: 25 STY, 25 FYS, 25 SMI 
 Effekt: För varje nivå av Urkraft gör krigaren +5 fysisk skada 
 Effekt: För varje nivå av Kvicksilversjäl får krigaren +5 poäng, poängen kan fördelas hursomhelst på färdigheten Undvika attack, dessa poäng kan användas för att temporärt köpa fler Undvika attack -färdigheter 
@@ -133,7 +133,7 @@ Maxnivå: 1
 Krigarens raseri intensifieras av skador, vilket driver hen till än mer våldsamma attacker. 
 Effekt: för varje skada krigaren erhåller ökar fysisk skada med +5 under bärsärkagången. 
 Maxnivå: 1
-    * **Bärsärk – Skräckinjagande raseri** (passiv): 
+    * **Bärsärk - Skräckinjagande raseri** (passiv): 
 Krigarens ursinniga attacker fyller fiender med rädsla och får dem att tveka. 
 Effekt: varje gång krigaren träffar med en attack under bärsärkagången får alla fiender inom räckvidd -1 i alla handlingar under resten av stridsrundan (staplar). 
 Maxnivå: 1

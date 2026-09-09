@@ -35,13 +35,13 @@ Drävul är en skrämmande varelse som rör sig med en grym elegans. Dess kropp 
 
 | Resultat | Träffpunkt | RV | KP |
 | :--- | :--- | :---: | :---: |
-| 1–2 | Huvud | – | 12 |
-| 3–4 | Höger arm | – | 12 |
-| 5–6 | Vänster arm | – | 12 |
-| 7–11 | Bröst | – | 25 |
-| 12–14 | Mage | – | 16 |
-| 15–17 | Höger ben | – | 16 |
-| 18–20 | Vänster ben | – | 16 |
+| 1-2 | Huvud | - | 12 |
+| 3-4 | Höger arm | - | 12 |
+| 5-6 | Vänster arm | - | 12 |
+| 7-11 | Bröst | - | 25 |
+| 12-14 | Mage | - | 16 |
+| 15-17 | Höger ben | - | 16 |
+| 18-20 | Vänster ben | - | 16 |
 
 ## Motstånd och svagheter
 
