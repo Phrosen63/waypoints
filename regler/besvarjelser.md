@@ -180,9 +180,9 @@ Följande kategorier finns:
 * **Levitera:**  
   Kastaren kan få sig själv, ett föremål, eller varelser att sväva. Levande varelser måste frivilligt låta sig leviteras, annars händer inget. Föremål som leviterar färdas långsamt.  
   Hastighet: 5m/SR (+1 per nivå)  
-  Höjd: SPI*nivå meter  
-  Maxavstånd från kastaren: SPI*2 meter  
-  Vikt: SPI*nivå kg  
+  Höjd: SPI\*nivå meter  
+  Maxavstånd från kastaren: SPI\*2 meter  
+  Vikt: SPI\*nivå kg  
   Maxnivå: 10
 * **Analysera:**  
   Kastaren analyserar sitt mål och lär sig massor om målet, nämligen: hur mycket max-KP målet har, hur mycket KP målet har för tillfället, samt skador, vilka motstånd och svagheter målet har, vilka färdighet, besvärjelser, samt magiska förmågor målet har.
