@@ -113,26 +113,26 @@ Följande kategorier finns:
   Skapar en vägg av det valda elementet. Väggen blockerar fiender från att passera. Om fiender står nära väggen tar de skada i alla kroppsdelar varje SR. Väggens storlek varierar efter spelarens vilja.  
   Krav: 20 SPI  
   Antal: endast en vägg per element kan vara aktiv åt gången (+1 varannan nivå)  
+  Längd: upp till SPI m
   Höjd: upp till SPI/2m  
-  Längd: SPI  
+  Bredd: upp till SPI/2m  
   Skada: 2T6 (+3T6 per nivå)  
   Varaktighet: 10 SR, eller tills kastaren tar bort väggen.  
   Maxnivå: 15
 * **Element-cyklon:**  
-  Skapar en cyklon av det valda elementet. Cyklonen rör sig enligt kastarens vilja. Fiender i närheten av cyklonen tar skada i alla kroppsdelar varje SR, och blir försvagade. Mindre fiender kan sugas upp helt av cyklonen och bli fångade.  
+  Skapar en cyklon av det valda elementet. Cyklonen rör sig enligt kastarens vilja. Fiender i närheten av cyklonen tar skada i alla kroppsdelar varje SR, och blir försvagade. Fiender vars STY+SMI är lägre än kastarens SPI sugs upp helt av cyklonen, blir fångade och tar skada under varaktigheten.  
   Krav: 20 SPI  
   Antal: endast en cyklon kan vara aktiv åt gången (+1 per nivå)  
   Skada: 1T6 (+2T6 per nivå)  
   Effekt: -2 i alla handlingar (staplar ej)  
   Varaktighet: 8 SR, eller tills spelaren tar bort cyklonen.  
   Maxnivå: 15
-* 
 
 ### Energi-besvärjelser
 
 * **Tysta:**  
   Hindrar offret från att kasta besvärjelser.  
-  Antal: 1 offer (+1 varannan nivå. Vid nivå 5 och uppåt kan besvärjelsen kastas över ett område och träffa alla fiender. Området är SPI stort.)  
+  Antal: 1 offer (+1 varannan nivå. Vid nivå 5 och uppåt kan besvärjelsen kastas över ett område och träffa alla fiender. Området är SPI m stort.)  
   Varaktighet: 3 SR (+1 per nivå)  
   Återhämtningstid: 3 SR  
   Maxnivå: 10
@@ -161,14 +161,14 @@ Följande kategorier finns:
   Maxnivå: 2
 * **Rämna:**  
   Kastaren vidrör ett objekt (exempelvis en dörr eller en motståndares rustning) och får det att rämna. Fungerar ej på levande varelser.  
-  Effekt: objektet rämnar om dess brytvärde är lägre än kastarens mentala kraft  
+  Effekt: objektet rämnar om dess brytvärde är lägre än kastarens mentala kraft.  
   Nivå 1: SPI/2  
   Nivå 2: SPI  
   Maxnivå: 2
 * **Tryckvåg:**  
   Kastaren avfyrar en tryckvåg mot målet. Tryckvågens form kan kontrolleras och kan till exempel avfyras som en nova, en kon eller en stav, för ökad precision. Ju mindre form besvärjelsen tar, desto större kraft genereras.  
   Tryckvågen trycker fiender bakåt. Kastaren kan kontrollera hur kraftfull tryckvågen ska vara, upp till sin maximala potens. Om målet är för stort händer inget.  
-  Mål som utsätts för tryckvågen kan ha en chans att undvika effekterna, om de lyckas med ett (SMI+STY/2)-slag, beroende på offrets storlek, avstånd till kastaren, och andra omständigheter.  
+  Mål som utsätts för tryckvågen kan ha en chans att undvika effekterna, om de lyckas med ett (SMI+STY/2)-slag, beroende på offrets storlek, avstånd till kastaren, och andra omständigheter (spelledaren avgör).  
   Denna besvärjelse kan både kanaliseras och enkel-kastas. Om besvärjelsen kanaliseras så ökar effekten med en nivå för varje stridsrunda (max 10).  
   Effekt: SPI * nivå kg  
   Maxnivå: 10
@@ -185,7 +185,10 @@ Följande kategorier finns:
   Vikt: SPI\*nivå kg  
   Maxnivå: 10
 * **Analysera:**  
-  Kastaren analyserar sitt mål och lär sig massor om målet, nämligen: hur mycket max-KP målet har, hur mycket KP målet har för tillfället, samt skador, vilka motstånd och svagheter målet har, vilka färdighet, besvärjelser, samt magiska förmågor målet har.
+  Kastaren analyserar sitt mål och lär sig massor om målet, nämligen: hur mycket max-KP målet har, hur mycket KP målet har för tillfället, samt skador, vilka motstånd och svagheter målet har, vilka färdighet, besvärjelser, samt magiska förmågor målet har.  
+  Krav: 15 SPI  
+  Antal mål: 1  
+  Maxnivå: 1
 * **Magisk syn:**  
   Kastaren förstärker sin syn med magi.  
   Nivå 1: Kastaren kan se magiska saker och osynliga saker.  
@@ -196,15 +199,16 @@ Följande kategorier finns:
 ### Heliga besvärjelser (böner)
 
 * **Hela:**  
-  Läker skada i en kroppsdel hos ett mål inom räckvidd.  
+  Läker skada i en kroppsdel (kastaren avgör) hos ett mål inom räckvidd.  
   Räckvidd: SPI m  
-  Effekt: 2T6 (+2T6 per nivå)  
+  Effekt: 1T6+6 (+2T6 per nivå)  
   Återhämtningstid: 2 SR  
   Maxnivå: 25
 * **Hela grupp:**  
-  Läker skada hos alla vänner i området.  
-  Delar heliga skada på alla fiender inom området.  
-  Effekt: 1T6+6 (+2T6 per nivå)  
+  Läker skada hos alla vänner i området. Kastaren får fritt fördela läkepoängen.  
+  Besvärjelsen delar dessutom heliga skada på alla fiender inom området.  
+  Området är SPI/2 m stort.  
+  Effekt: 2T6 (+2T6 per nivå)  
   Skada: 1T6+6 (+2T6 per nivå)  
   Maxnivå: 25
 * **Helga vapen** (stärka, staplar ej):  
