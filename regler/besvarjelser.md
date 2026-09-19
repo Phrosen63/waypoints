@@ -173,10 +173,11 @@ Följande kategorier finns:
   Effekt: SPI * nivå kg  
   Maxnivå: 10
 * **Telekinesi:**  
-  Kastaren kan med viljans kraft kontrollera föremål och till exempel använda dem som projektiler, eller sköldar i en strid. Kan ej användas på levande varelser.  
+  {.rå}Kastaren kan med viljans kraft kontrollera föremål och till exempel använda dem som projektiler, eller sköldar i en strid. Kan ej användas på levande varelser.  
   Antal föremål: SPI/2 (+0.5*SPI per nivå)  
   Total maxvikt: (SPI*2)*nivå kg  
   Maxnivå: 10
+  {/rå}
 * **Levitera:**  
   Kastaren kan få sig själv, ett föremål, eller varelser att sväva. Levande varelser måste frivilligt låta sig leviteras, annars händer inget. Föremål som leviterar färdas långsamt.  
   Hastighet: 5m/SR (+1 per nivå)  
