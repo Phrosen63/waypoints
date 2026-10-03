@@ -3,7 +3,7 @@ type: regel
 namn: Besvärjelser
 länkar:
   regler: []
-relaterat: [grundegenskaper, handlingar_i_strid, styrkor_svagheter_och_element]
+relaterat: [kraftordsmagi, grundegenskaper, handlingar_i_strid, styrkor_svagheter_och_element]
 taggar: [magi, grundregler]
 toc: true
 toc_nivaer: [2, 3]
