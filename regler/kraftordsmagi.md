@@ -30,7 +30,7 @@ Beskriver vad **magin består av eller påverkar.**
 
 Två Essens-ord kan inte kombineras direkt.
 
-{.exempel}
+{.felexempel}
 ignis + aqua
 {/}
 
@@ -50,7 +50,7 @@ Beskriver **vad magikern gör med essensen.**
 
 Två Operationer kan inte kombineras utan en giltig grund (essens).
 
-{.exempel}
+{.felexempel}
 amplificare + firmare
 {/}
 
