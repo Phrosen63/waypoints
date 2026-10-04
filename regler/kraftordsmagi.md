@@ -141,9 +141,9 @@ Grundegenskapen {.nyckelord}Spiritus{/} (SPI) ligger som grund för hur effektiv
 | 4 × firmare | 3 × SPI |
 | 5 × firmare | 4 × SPI |
 
+{.konfidentiellt}
 ## Förstärkta Essens-ord
 
-{.konfidentiellt}
 Det finns avancerade former av Essens-orden som innehåller firmare inbyggt. Vilket att ett enda uttalat ord motsvarar två kraftord.
 
 Dessa avancerade former är inte kända av nya karaktärer. De kan upptäckas, läras eller erhållas genom progression.
@@ -161,4 +161,6 @@ Dessa avancerade former är inte kända av nya karaktärer. De kan upptäckas, l
 {.exempel}
 ignifer = ignis + firmare  
 igniferus = ignis + firmare + firmare
+{/}
+
 {/}
