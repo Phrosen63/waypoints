@@ -143,7 +143,7 @@ Grundegenskapen {.nyckelord}Spiritus{/} (SPI) ligger som grund för hur effektiv
 
 ## Förstärkta Essens-ord
 
-{.spelledare}
+{.konfidentiellt}
 Det finns avancerade former av Essens-orden som innehåller firmare inbyggt. Vilket att ett enda uttalat ord motsvarar två kraftord.
 
 Dessa avancerade former är inte kända av nya karaktärer. De kan upptäckas, läras eller erhållas genom progression.
