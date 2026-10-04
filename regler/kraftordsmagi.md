@@ -10,7 +10,7 @@ toc_nivaer: [2, 3]
 status: draft
 ---
 
-En särskild magisk tradition där magikern inte lär sig färdiga besvärjelser, utan kraftord på ett magiskt pseudo-latin. Genom att kombinera orden kan spelaren själv skapa besvärjelser.
+En särskild magisk tradition där besvärjaren inte lär sig färdiga besvärjelser, utan kraftord på ett magiskt pseudo-latin. Genom att kombinera orden kan spelaren själv skapa besvärjelser.
 
 ## Kraftordens fyra kategorier
 
@@ -36,7 +36,7 @@ ignis + aqua
 
 ### Operation
 
-Beskriver **vad magikern gör med essensen.**
+Beskriver **vad besvärjaren gör med essensen.**
 
 | Kraftord | Betydelse |
 | :--- | :--- |
@@ -48,17 +48,19 @@ Beskriver **vad magikern gör med essensen.**
 | creare | skapa |
 | destruere | förstöra |
 
-Två Operationer kan inte kombineras utan en giltig grund (essens).
+En besvärjelse måste innehålla minst en {.nyckelord}essens{/}. Två {.nyckelord}operationer{/} kan inte kombineras direkt.
 
 {.felexempel}
 amplificare + firmare
 {/}
 
-Däremot med en giltig grund:
+Lägg till en essens, så fungerar det:
 
 {.exempel}
 ignis + amplificare + firmare
 {/}
+
+Essensen behöver inte komma från besvärjaren själv. Den kan också hämtas från omgivningen, till exempel genom att dra elden ur en närliggande brasa.
 
 ### Form
 
@@ -106,7 +108,7 @@ terra + amplificare + murus = En stor jordmur.
 ## Besvärjelser kan byggas över flera stridsrundor
 
 Besvärjaren kan bara uttala ett begränsat antal ord per stridsrunda.  
-En besvärjelse behöver inte släppas direkt. Magikern kan hålla kvar en påbörjad besvärjelse och fortsätta lägga till ord nästa runda.
+En besvärjelse behöver inte släppas direkt. Besvärjare kan hålla kvar en påbörjad besvärjelse och fortsätta lägga till ord nästa runda.
 
 {.exempel}
 Runda 1:  
