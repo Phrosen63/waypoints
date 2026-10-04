@@ -1,6 +1,6 @@
 ---
 type: regel
-namn: Besvärjelser
+namn: Kraftordsmagi
 länkar:
   regler: []
 relaterat: [besvarjelser, grundegenskaper, handlingar_i_strid, styrkor_svagheter_och_element]
